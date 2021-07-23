@@ -10,22 +10,30 @@
 
 * [3. Introdução a Algoritmos](algoritmos/3.-introducao-a-algoritmos.md)
 
-## Programação com Scratch
+## Introdução ao Scratch
 
-* [4. Introdução ao Scratch](programacao-com-scratch/introducao-ao-scratch.md)
-* [5. Variáveis](programacao-com-scratch/variaveis.md)
-* [6. Operadores e Expressões](programacao-com-scratch/operadores-e-expressoes.md)
-* [7. Entrada e saída de dados](programacao-com-scratch/7.-entrada-e-saida-de-dados.md)
-* [8. Estruturas Condicionais](programacao-com-scratch/8.-estruturas-condicionais.md)
-* [9. Estruturas de Repetição](programacao-com-scratch/9.-estruturas-de-repeticao.md)
-* [10. Manipulando vetores e matrizes](programacao-com-scratch/10.-manipulando-vetores-e-matrizes.md)
-* [11. Criação de funções](programacao-com-scratch/11.-criacao-de-funcoes.md)
-* [12. Manipulação de Arquivos](programacao-com-scratch/12.-manipulacao-de-arquivos.md)
-* [13. Manipulação de Strings](programacao-com-scratch/13.-manipulacao-de-strings.md)
-* [14. Boas práticas para Padrão de Código](programacao-com-scratch/14.-boas-praticas-para-padrao-de-codigo.md)
-* [15. Glossário](programacao-com-scratch/glossario.md)
+* [4. Introdução ao Scratch](introducao-ao-scratch/introducao-ao-scratch.md)
+
+## Conceitos de Programação
+
+* [5. Variáveis](conceitos-de-programacao/variaveis.md)
+* [6. Operadores e Expressões](conceitos-de-programacao/operadores-e-expressoes.md)
+* [7. Entrada e saída de dados](conceitos-de-programacao/7.-entrada-e-saida-de-dados.md)
+* [8. Estruturas Condicionais](conceitos-de-programacao/8.-estruturas-condicionais.md)
+* [9. Estruturas de Repetição](conceitos-de-programacao/9.-estruturas-de-repeticao.md)
+* [10. Manipulando vetores e matrizes](conceitos-de-programacao/10.-manipulando-vetores-e-matrizes.md)
+* [11. Criação de funções](conceitos-de-programacao/11.-criacao-de-funcoes.md)
+* [12. Manipulação de Arquivos](conceitos-de-programacao/12.-manipulacao-de-arquivos.md)
+* [13. Manipulação de Strings](conceitos-de-programacao/13.-manipulacao-de-strings.md)
+* [14. Boas práticas para Padrão de Código](conceitos-de-programacao/14.-boas-praticas-para-padrao-de-codigo.md)
+
+## Programação com Scratch
 
 ## Programação com Portugol
 
 * [Portugol](programacao-com-portugol/portugol.md)
+
+---
+
+* [15. Glossário](glossario.md)
 
