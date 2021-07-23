@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Sobre o método](README.md)
-* [Sumário](sumario.md)
 * [Sobre os autores](sobre-os-autores.md)
+* [Como o livro está organizado](como-o-livro-esta-organizado.md)
+* [Sumário](sumario.md)
 * [1. Por que Aprender a Programar](por-que-aprender-a-programar.md)
 * [2. Conceitos Básicos](conceitos-basicos.md)
 
@@ -25,7 +26,7 @@
 * [11. Criação de funções](conceitos-de-programacao/11.-criacao-de-funcoes.md)
 * [12. Manipulação de Arquivos](conceitos-de-programacao/12.-manipulacao-de-arquivos.md)
 * [13. Manipulação de Strings](conceitos-de-programacao/13.-manipulacao-de-strings.md)
-* [14. Boas práticas para Padrão de Código](conceitos-de-programacao/14.-boas-praticas-para-padrao-de-codigo.md)
+* [14. Boas práticas e Padrões de Código](conceitos-de-programacao/boas-praticas-e-padroes-de-codigo.md)
 
 ## Programação com Scratch
 

@@ -46,13 +46,5 @@ Programar é criar algoritmos em linguagens de programação, algoritmos são se
 
 Pedagogos e outros profissionais costumam dizer que o melhor é integrarmos conteúdos, ou seja, incluir um conteúdo em outros ou mesmo levar o conteúdo para a realidade do aluno, porém nem sempre isso é possível, muitos exercícios são cansativos e parecem inúteis, contudo é uma realidade, não é possível ter todos exercícios legais e bacanas no início da programação.
 
-### Organização do livro
-
-Começaremos com conceitos básicos para termos uma base para o aprendizado de programação e, em seguida, abordaremos conteúdos de programação aplicando a ferramenta online Scratch. O Scratch é uma linguagem de programação em blocos, o que torna o aprendizado mais fácil, pois o foco vai para os conceitos e não na linguagem em si. Além disso, é uma ferramenta muito visual, permite a criação de animações, jogos e muito mais. Dessa forma será muito mais legal aprender os conceitos de programação. Ao longo do capítulo sobre Scratch iremos apresentar fluxogramas para melhor entendimento de conceitos de programação, como os desvios condicionais, isso acontecerá para você entender melhor tais conceitos que são fundamentais para a programação.
-
-Em seguida, teremos um capítulo que abordará os mesmos conceitos com o Portugol do Portugol Studio, este é um programa offline e online que permite a programação usando uma linguagem em português com sintaxe baseada na linguagem C. Nesse capítulo os exercícios serão menos legais e mais cansativos, porém serão fundamentais para, no futuro, você aprender uma linguagem de programação comercial, como a linguagem C, Javascript ou Python, por exemplo.
-
-Todos capítulos e seções utilizarão os pilares da metodologia do livro para tornar você um programador de forma mais fácil.
-
 
 
