@@ -52,9 +52,13 @@ Pensando nisso, no ano de 2019, ao iniciar a primeira turma do curso Técnico em
 
 E mais, no Scratch, temos tudo isso, primeiro vamos utilizar todos esses conceitos sem explicações para que você perceba o quanto o Scratch é didático e intuitivo, nas próximas seções teremos explicações abordando os conceitos, pois essa é a nossa maior finalidade. 
 
-Para iniciar com Scratch, é possível realizar o download ou usar a interface web. Vamos usar a versão Web e, para isso, acessar o site [Scratch.mit.edu](http://scratch.mit.edu/) e clicar em Comece a Criar. Isso nos leva a interface web do Scratch, como a Figura 4.1 apresenta. 
+Para iniciar com Scratch, é possível realizar o download ou usar a interface web. Vamos usar a versão Web e, para isso, acessar o site [Scratch.mit.edu](http://scratch.mit.edu/) e clicar em Comece a Criar. Antes de tudo coloque o site em Português, clique no Globo e marque Português Brasileiro, como mostra a Figura 4.1.
 
-![Figura 4.1. Tela Inicial do Scratch Web.](../.gitbook/assets/scratch-tela.png)
+![Figura 4.1. Como alterar o idioma da interface web do Scratch.](../.gitbook/assets/image%20%284%29.png)
+
+Isso nos leva a interface web do Scratch, como a Figura 4.2 apresenta. 
+
+![Figura 4.2. Tela Inicial do Scratch Web.](../.gitbook/assets/scratch-tela.png)
 
 ### Como Começar
 
@@ -67,7 +71,7 @@ Antes da explicação, apresento alguns conceitos básicos da ferramenta:
 * **Cenário**: é o plano de fundo do stage;
 * **Script**: é o roteiro do jogo/animação ou, seja, o conjunto de blocos de comandos que dão vida à animação ou jogo. Cada sprite e cenário pode ter um Script;
 
-Ainda na Figura 4.1, você pode observar cada uma das áreas de acordo com a legenda, esta legenda foi adicionada a imagem para facilitar seu entendimento. Nela temos:
+Ainda na Figura 4.2, você pode observar cada uma das áreas de acordo com a legenda, esta legenda foi adicionada a imagem para facilitar seu entendimento. Nela temos:
 
 * **Área de Stage \(Palco\)**: é o palco onde ficarão os sprites;
 * **Área de Sprite \(Ator\)**: esta área é a **Sprite List** onde ficam exibidos os **thumbnails \(miniaturas\)** dos sprites incluidos no jogo/animação, esta área permite o acesso mais fácil a cada sprite;
@@ -76,17 +80,17 @@ Ainda na Figura 4.1, você pode observar cada uma das áreas de acordo com a leg
 * **Área de Blocos de Comando**: área que mostra os comandos da categoria escolhida;
 * **Área de Script \(Roteiro\)**: esta área mostram os blocos de comando sendo utilizados pelo sprite ou cenário atual;
 
-O stage tem um tamanho pré-definido e utiliza o sistema de coordenadas cartesianas \(x, y\) e tem 480 pontos no eixo X e 360 pontos no eixo Y, sendo metade desses valores para cada sentido em cada eixo, como ilustra a Figura 4.2.
+O stage tem um tamanho pré-definido e utiliza o sistema de coordenadas cartesianas \(x, y\) e tem 480 pontos no eixo X e 360 pontos no eixo Y, sendo metade desses valores para cada sentido em cada eixo, como ilustra a Figura 4.3.
 
-![Figura 4.2. Plano cartesiano do Palco do Scratch.](../.gitbook/assets/scratch-stage-cartesiano.png)
+![Figura 4.3. Plano cartesiano do Palco do Scratch.](../.gitbook/assets/scratch-stage-cartesiano.png)
 
-Além disso, é permitida a rotação de um personagem no stage, esta rotação utiliza os ângulos de uma circunferência, como a Figura 4.3 apresenta.
+Além disso, é permitida a rotação de um personagem no stage, esta rotação utiliza os ângulos de uma circunferência, como a Figura 4.4 apresenta.
 
-![Figura 4.3. &#xC2;ngulos de uma circunfer&#xEA;ncia.](../.gitbook/assets/scratch-rotacao.png)
+![Figura 4.4. &#xC2;ngulos de uma circunfer&#xEA;ncia.](../.gitbook/assets/scratch-rotacao.png)
 
-Esta plataforma, tem diversas categorias com comandos e blocos que podem ser utilizados, cada categoria representa um tipo diferente de conjunto de blocos onde os comandos em azul são referentes à Movimento, os roxos são referentes à Aparência, magenta à Som, amarelo à Eventos, laranja à Controle, ciano à Sensores, verde à Operadores, laranja escuro à Variáveis e ainda é possível criar os seus próprios blocos que ficam em um tom de vermelho. Essas categorias podem ser vistos na Figura 4.4.
+Esta plataforma, tem diversas categorias com comandos e blocos que podem ser utilizados, cada categoria representa um tipo diferente de conjunto de blocos onde os comandos em azul são referentes à Movimento, os roxos são referentes à Aparência, magenta à Som, amarelo à Eventos, laranja à Controle, ciano à Sensores, verde à Operadores, laranja escuro à Variáveis e ainda é possível criar os seus próprios blocos que ficam em um tom de vermelho. Essas categorias podem ser vistos na Figura 4.5.
 
-![Figura 4.4. Categorias presentes no Scratch web.](../.gitbook/assets/scratch-categorias.png)
+![Figura 4.5. Categorias presentes no Scratch web.](../.gitbook/assets/scratch-categorias.png)
 
 Antes de aprendermos conceitos sobre programação, vamos fazer exercícios no Scratch. A finalidade será mostrar que é fácil usar o Scratch. Ainda não começamos a aplicar nossa metodologia. Quero apenas mostrar para você que é legal e interessante usar o Scratch, ou seja, quero te motivar. Então vamos botar as mãos à massa.
 
@@ -98,9 +102,9 @@ Vamos fazer alguns exercícios, não se preocupe caso tenha alguma dificuldade.
 
 **Exercício 1**
 
-Arraste o sprite Gato pela área do stage \(palco\) e observe a posição X e Y indicada no campo X e Y.
+Arraste o sprite Gato pela área do stage \(palco\) e observe a posição X e Y indicada no campo X e Y. Veja uma ilustração na Figura 4.6.
 
-![Figura 4.5. Ator Gato no palco.](../.gitbook/assets/image%20%283%29.png)
+![Figura 4.6. Ator Gato no palco.](../.gitbook/assets/image%20%283%29.png)
 
 **Exercício 2**
 
@@ -111,9 +115,9 @@ Vamos fazer um Gato andar para frente ao clicar no comando Mova.
 3. Mantenha o valor 10 no comando Mova;
 4. Teste clicando duas vezes sobre o comando na área de código;
 5. Teste com outros valores no comando Mova;
-6. Veja a solução na Figura 4.6.
+6. Veja a solução na Figura 4.7.
 
-![Figura 4.6. Solu&#xE7;&#xE3;o do exerc&#xED;cio 2.](../.gitbook/assets/image%20%281%29.png)
+![Figura 4.7. Solu&#xE7;&#xE3;o do exerc&#xED;cio 2.](../.gitbook/assets/image%20%281%29.png)
 
 **Exercício 3**
 
@@ -136,11 +140,11 @@ Podemos criar um código onde um Gato anda para frente, diz "Olá" e, em seguida
 6. Use mais um comando `mova <10> passos`;
 7. Coloque mais uma fala, agora com a mensagem `Voltei!`;
 8. Em Movimento, coloque o comando `aponte para a direção <90>`;
-9. Adicione o comando `Sempre` em volta dos comandos para que fique em loop infinito;
+9. Adicione o comando de loop `Sempre` em volta dos comandos para que fique em loop infinito;
 
-Abaixo, na Figura 4.7 apresento a solução do exercício 4.
+Abaixo, na Figura 4.8 apresento a solução do exercício 4.
 
-![Figura 4.7. Solu&#xE7;&#xE3;o do exerc&#xED;cio 4.](../.gitbook/assets/scratch-exercicio-ola-voltei-solucao.gif)
+![Figura 4.8. Solu&#xE7;&#xE3;o do exerc&#xED;cio 4.](../.gitbook/assets/scratch-exercicio-ola-voltei-solucao.gif)
 
 **Exercício 5**
 
@@ -148,15 +152,17 @@ E se criarmos uma animação onde o personagem dança Hip-Hop?
 
 Quando criamos um novo projeto o único ator \(sprite\) é o do Gato, mas podemos usar outro;
 
-1. Crie um novo projeto;
-2. Escolha um novo ator, use o Anina Hip-Hop;
-3. Delete o Gato da lista de atores;
-4. Faça uma animação com o ator usando o comando `próxima fantasia`;
-5. Coloque um comando `espere <0.5> seg` para que as fantasias não mudem muito rápido;
+1. Crie um Novo projeto \(Menu arquivo &gt; Novo\);
+2. Delete o Gato da lista de atores;
+3. Escolha um novo ator, use o Anina Dance;
+4. Coloque o comando `quando <bandeira-verde> for clicado`, da categoria Eventos.
+5. Junte o comando de loop `Sempre` no comando anterior para que sempre aponte;
+6. Coloque o comando `próxima fantasia` , da categoria Aparência, dentro do comando anterior para que ele aponte para o mouse sempre;
+7. Coloque um comando `espere <0.5> seg`  dentro do comando `Sempre` para que as fantasias não mudem muito rápido;
 
-Abaixo, na Figura 4.8 apresento a solução do exercício 5.
+Abaixo, na Figura 4.9 apresento a solução do exercício 5.
 
-![Figura 4.8. Solu&#xE7;&#xE3;o do exerc&#xED;cio 5.](../.gitbook/assets/scratch-exercicio-anina-hip-hop-solucao.gif)
+![Figura 4.9. Solu&#xE7;&#xE3;o do exerc&#xED;cio 5.](../.gitbook/assets/scratch-exercicio-anina-hip-hop-solucao.gif)
 
 ### Interação com o Usuário
 
@@ -170,38 +176,72 @@ Faça a bola seguir o cursor do mouse infinitamente, para isso inclua um sprite 
 
 Vamos criar um bastão que irá seguir parcialmente o mouse a ponto de ser utilizado como mira, ficará como na Figura 4.7. Faça o seguinte:
 
-1. Mude o ator para o Magic Ward, use o botão `Selecione um Ator` \(Figura 4.7\);
+1. Mude o ator para o Magic Ward, use o botão `Selecione um Ator` \(Figura 4.10\);
 2. Vá na aba Fantasias, clique sobre cada um dos raios amarelhos e os apague;
 3. Volte para a aba Código.
-4. Coloque o comando `quando <bandeira> for clicado`, da categoria Eventos.
-5. Junte o comando `sempre` no comando anterior para que sempre aponte;
+4. Coloque o comando `quando <bandeira-verde> for clicado`, da categoria Eventos.
+5. Junte o comando de loop `sempre` no comando anterior para que sempre aponte;
 6. Coloque o comando `aponte para <ponteiro do mouse>` , da categoria Movimento, dentro do comando anterior para que ele aponte para o mouse sempre;
 7. Na categoria Movimento, marque os botões `Posição x`, `Posição y` e `Direção`;
 8. Teste clicando no botão Ir \(Bandeira verde\), acima do palco. Para parar, clique no botão Pare \(botão vermelho acima do palco\).
-9. Veja a solução na Figura 4.8.
+9. Veja a solução na Figura 4.11.
 
-![Figura 4.7. Bot&#xE3;o Selecione um Ator.](../.gitbook/assets/image%20%282%29.png)
+![Figura 4.10. Bot&#xE3;o Selecione um Ator.](../.gitbook/assets/image%20%282%29.png)
 
-![Figura 4.8. Mirando com o Mouse no Scratch.](../.gitbook/assets/mirando-mouse.gif)
+![Figura 4.11. Mirando com o Mouse no Scratch.](../.gitbook/assets/mirando-mouse.gif)
+
+#### Um código para cada Sprite
+
+Que tal um projeto simples onde um bonecto vai em direção a um segundo, quando se esbarram cada um fala uma mensagem diferente, o primeiro diz: `Desculpa!` e o segundo diz: `Não foi nada`.
+
+1. Crie um novo projeto;
+2. Delete o sprite do Gato;
+3. Inclua o personagem 
 
 #### Colisão de um bola com a borda
 
 Vamos fazer um bola seguir em uma direção e ao colidir com a borda do stage voltar na direção oposta. Para isso:
 
-1. inclua um sprite de bola e;
-2. adicione o comando 'se tocar na borda, volte'.
+1. Crie um novo projeto;
+2. Delete o sprite do Gato;
+3. Inclua um sprite de alguma bola, como a de baseball \(baseball\);
+4. Clique na bola e depois altere o Tamanho de 100 para 50;
+5. Coloque o comando `quando <bandeira-verde> for clicado`, da categoria Eventos.
+6. Inclua o comando de loop `Sempre`, da categoria Controle. Lembre de juntá-lo no comando acima, o comando `quando <bandeira-verde> for clicado`.
+7. Coloque o comando `mova <10> passos` dentro do comando de loop `Sempre`. Coloque o valor 5 no lugar de 10.
+8. Adicione o comando `se tocar na borda, volte` da categoria Movimento abaixo do comando do item acima. 
+9. Ficará como ilustra a Figura 4.13.
+
+![Figura 4.13. Solu&#xE7;&#xE3;o do exerc&#xED;cio que a bola volta ao tocar na borda.](../.gitbook/assets/bola-volta.gif)
 
 **Colisão de um bola com um sprite**
 
-A partir do código anterior, vamos colocar mais um sprite no stage e, quando a bola tocar nele, ela irá voltar na direção oposta. Assim, adicione um outro sprite na tela, como ilustra a Figura 4.8. Após isso, adicione o comando `se <> então` e dentro do espaço do `se <> então` coloque o comando `tocando em <NomeOutroSprite>`, onde o NomeOutroSprite deve ser o nome do sprite que você adicionou recentemente.
+A animação agora será colocar o batedor para bater na bola quando ela chegar próxima a ele. A partir do código anterior, vamos colocar mais um sprite no stage e, quando a bola tocar nele, ela irá voltar na direção oposta. Assim:
 
-![Figura 4.8. Colis&#xE3;o de uma bola com um sprite.](../.gitbook/assets/scratch-bola-tocar-sprite.png)
+1. Adicione um sprite de um boneco \(batter\) na tela. Ajuste a posição x e y dele para que a bola fique na "altura" do ombro do bonecto \(batter\), sugiro os valores `x = -30` e `y = -15`.
+2. Após isso, clique no sprite do boneto, pois vamos fazer alguns códigos nele e não na bola.
+3. Coloque o comando `quando <bandeira-verde> for clicado`, da categoria Eventos, esse comando é necessário para termos que o botão Ir \(bandeira verde\) inicie a animação.
+4. Inclua o comando de loop `Sempre`, da categoria Controle. Lembre de juntá-lo no comando acima, o comando `quando <bandeira-verde> for clicado`. Esse sempre será necessário para termos um loop que executará o tempo todo ao longo da animação.
+5. Adicione o comando `se <> então` , da categoria Controle, embaixo do comando `mova <5> passos`. E dentro do espaço \(condição do SE\) do `se <> então` coloque o comando `tocando em <NomeOutroSprite>`, da categoria Sensores, onde o NomeOutroSprite deve ser o nome da Bola \(por padrão é Baseball\) que você adicionou recentemente, provavelmente `ficará tocando em <Baseball>`.
+6. Dentro do bloco do SE coloque:
+   1. O comando `mude para fantasia <batter-b>`, da categoria Aparência;
+   2. Abaixo do comando anterior, coloque o comando `espere 1 seg`, com o valor 0.1, esse comando está na categoria Controle. Esse espere é necessário para que as fantasias não mudem muito rápido.
+   3. Em seguida, o comando `mude para fantasia <batter-c>`, da categoria Aparência;
+   4. Abaixo do comando anterior, coloque o comando `espere 1 seg`, com o valor 0.1, esse comando está na categoria Controle.
+   5. Em seguida, o comando `mude para fantasia <batter-d>`, da categoria Aparência;
+   6. Abaixo do comando anterior, coloque o comando `espere 1 seg`, com o valor 0.1, esse comando está na categoria Controle.
+   7. Em seguida, o comando `mude para fantasia <batter-a>`, da categoria Aparência. A fantasia batter-a é a posição inicial do batedor;
+   8. Neste último não precisamos usar o comando espere.
+7. Clique na bola para alterarmos o código dela e coloque o comando `Se <> então` , da categoria Controle, abaixo do comando `mova 5 passos` e, obviamente, dentro do comando `Sempre`, pois esse código estará no loop da animação.
+8. Na condição do Se, coloque o comando `tocando em <ponteiro do mouse>` , da categoria Sensores, e mude o valor `ponteiro do mouse` para `Batter`, pois faremos alguma coisa quando a bola tocar no batedor.
+9. Dentro do bloco do Se coloque o comando `aponte para a direção <90>`, mas altere o valor para -90, lembre do sinal de negativo, pois isso fará a bola ir para a esquerda, quando tocar no batedor.
+10. Pronto, a Figura 4.12 apresenta a solução, note que há um código para a bola e um para o batedor. Tente entender todos os códigos que usamos e o motivo do uso e teste.
+
+![Figura 4.13. Solu&#xE7;&#xE3;o do c&#xF3;digo para o batedor e a bola de baseball.](../.gitbook/assets/bola-batedor.gif)
 
 #### **Exercício Prático**
 
-Criando o primeiro jogo em Scratch
-
-Crie um jogo de colher maça, como na Figura 4.9. Para isso:
+Crie um jogo de colher maça, como na Figura 4.12. Para isso:
 
 1. Crie o jogo da colheita de maça;
 2. Use um sprite como o Bowl e a maça, Apple;
@@ -209,7 +249,7 @@ Crie um jogo de colher maça, como na Figura 4.9. Para isso:
 4. Faça a tigela \(Bowl\) movimentar junto com o mouse, variando apenas o eixo X;
 5. **Desafio**: Adicione pontuação.
 
-![Figura 4.9. Exemplo de como ficar&#xE1; o exerc&#xED;cio de colher ma&#xE7;a.](../.gitbook/assets/scratch-colher-maca.png)
+![Figura 4.12. Exemplo de como ficar&#xE1; o exerc&#xED;cio de colher ma&#xE7;a.](../.gitbook/assets/scratch-colher-maca.png)
 
 Até aqui você utilizou diversos recursos de programação sem saber exatamente seus conceitos, isso é incrível, pois mostra o quanto o Scratch é intuitivo, então, agora vou lhe ensinar todos os conceitos que servirão de base para o aprendizado de qualquer uma das linguagens nas próximas seções. 
 
