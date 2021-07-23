@@ -8,7 +8,7 @@
 
 ## Algoritmos
 
-* [3. Introdução à Algoritmos](algoritmos/3.-introducao-a-algoritmos.md)
+* [3. Introdução a Algoritmos](algoritmos/3.-introducao-a-algoritmos.md)
 
 ## Programação com Scratch
 
