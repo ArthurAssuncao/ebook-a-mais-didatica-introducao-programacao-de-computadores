@@ -5,7 +5,7 @@ description: >-
   verá como o Scratch é intuitivo e fácil.
 ---
 
-# 4. Introdução ao Scratch
+# 4.1. Introdução ao Scratch
 
 ## O que é Scratch
 

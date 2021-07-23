@@ -133,3 +133,44 @@ if (idade > 18) {
 console.log(contador) // error: Uncaught ReferenceError: contador is not defined
 ```
 
+## Revisão:
+
+1. O que é um literal? 
+2. O que é uma string? 
+3. O que é uma variável? 
+4. O que é um identificador de variável? 
+5. O que é o valor da variável? 
+6. O que é e para que serve um operador de atribuição? 
+7. Dê um exemplo sobre o uso de variável no mundo real, diferente do exemplo apresentado neste capítulo. 
+8. O que é uma constante? 
+9. O que é Tipagem dinâmica? 
+10. O que é Tipagem estática? 
+11. O que é Tipagem forte? 
+12. O que é Tipagem fraca? 
+13. O que é Inferência de tipo? 
+14. O que é Coerção implícita? 
+15. O que é Concatenação de strings? 
+16. O que é Escopo de Variável?
+17. Assinale os identificadores \(nomes de variáveis\) que são válidos e não marque os inválidos, considere regras mais comuns como eu explico neste capítulo: 
+
+* [ ] \(X\)
+* [ ] XMU2
+* [ ] AH!
+* [ ] NOTA1
+* [ ] nota1
+* [ ] nota\_1
+* [ ] 5NOTA
+* [ ] "NOTA1"
+* [ ] A\[4\]
+* [ ] A\&B
+* [ ] A+B
+* [ ] I00001
+* [ ] NOTA/2
+* [ ] PEDROEPAULO
+
+[Aprenda a usar variáveis em Scratch](../programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
+
+Aprenda a usar variáveis em Portugol Studio
+
+Aprenda a usar variáveis em Linguagem C
+

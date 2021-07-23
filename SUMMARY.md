@@ -7,15 +7,15 @@
 * [1. Por que Aprender a Programar](por-que-aprender-a-programar.md)
 * [2. Conceitos Básicos](conceitos-basicos.md)
 
-## Algoritmos
+## 3. Algoritmos <a id="algoritmos"></a>
 
-* [3. Introdução a Algoritmos](algoritmos/3.-introducao-a-algoritmos.md)
+* [3.1. Introdução a Algoritmos](algoritmos/introducao-a-algoritmos.md)
 
-## Introdução ao Scratch
+## 4. Introdução ao Scratch <a id="introducao-ao-scratch"></a>
 
-* [4. Introdução ao Scratch](introducao-ao-scratch/introducao-ao-scratch.md)
+* [4.1. Introdução ao Scratch](introducao-ao-scratch/introducao-ao-scratch.md)
 
-## Conceitos de Programação
+## 5. Conceitos de Programação <a id="conceitos-de-programacao"></a>
 
 * [5. Variáveis](conceitos-de-programacao/variaveis.md)
 * [6. Operadores e Expressões](conceitos-de-programacao/operadores-e-expressoes.md)
@@ -29,6 +29,8 @@
 * [14. Boas práticas e Padrões de Código](conceitos-de-programacao/boas-praticas-e-padroes-de-codigo.md)
 
 ## Programação com Scratch
+
+* [Aprenda a usar variáveis em Scratch](programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
 
 ## Programação com Portugol
 
