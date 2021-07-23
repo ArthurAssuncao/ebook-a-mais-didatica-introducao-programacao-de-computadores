@@ -174,7 +174,7 @@ Faça a bola seguir o cursor do mouse infinitamente, para isso inclua um sprite 
 
 #### Mirando com o Mouse
 
-Vamos criar um bastão que irá seguir parcialmente o mouse a ponto de ser utilizado como mira, ficará como na Figura 4.7. Faça o seguinte:
+Vamos criar um bastão que irá seguir parcialmente o mouse a ponto de ser utilizado como mira, ficará como na Figura 4.11. Faça o seguinte:
 
 1. Mude o ator para o Magic Ward, use o botão `Selecione um Ator` \(Figura 4.10\);
 2. Vá na aba Fantasias, clique sobre cada um dos raios amarelhos e os apague;
@@ -192,11 +192,20 @@ Vamos criar um bastão que irá seguir parcialmente o mouse a ponto de ser utili
 
 #### Um código para cada Sprite
 
-Que tal um projeto simples onde um bonecto vai em direção a um segundo, quando se esbarram cada um fala uma mensagem diferente, o primeiro diz: `Desculpa!` e o segundo diz: `Não foi nada`.
+Que tal um projeto simples onde um boneto vai em direção a um segundo, quando se esbarram cada um fala uma mensagem diferente, o primeiro diz: `Desculpa!` e o segundo diz: `Não foi nada`.
+
+Dessa vez você fará sem minha ajuda, quer tentar?
 
 1. Crie um novo projeto;
 2. Delete o sprite do Gato;
-3. Inclua o personagem 
+3. Inclua um personagem. Coloque o personagem no canto esquerdo.
+4. Incluca um segundo personagem. Colorque o personagem o canto direito e inverta a direção dele de 90 para -90, para ele virar para a esquerda. Dica: use os comandos `defina o estilo de rotação para <esquerda-direita>` e `aponte para a direção <-90>`, ambos da categoria Movimento, com isso o personagem irá se virar para a esquerda sem ficar de cabeça para baixo.
+5. Coloque um código que faça o personagem 1 andar para a direita e se ele encostar no outro personagem ele irá dizer `Desculpa!`.
+6. Coloque um código que faça o personagem 2 andar para a esquerda e se ele encostar no outro personagem ele irá dizer `Não foi nada`.
+7. Coloque dentro do Se um comando para que o script/código pare.
+8. Não conseguiu? Vejá o [código da solução](https://scratch.mit.edu/projects/555245109/) e analise para entender, ou veja a animação na Figura 4.12
+
+![](../.gitbook/assets/encontro-desculpa.gif)
 
 #### Colisão de um bola com a borda
 
@@ -235,21 +244,23 @@ A animação agora será colocar o batedor para bater na bola quando ela chegar 
 7. Clique na bola para alterarmos o código dela e coloque o comando `Se <> então` , da categoria Controle, abaixo do comando `mova 5 passos` e, obviamente, dentro do comando `Sempre`, pois esse código estará no loop da animação.
 8. Na condição do Se, coloque o comando `tocando em <ponteiro do mouse>` , da categoria Sensores, e mude o valor `ponteiro do mouse` para `Batter`, pois faremos alguma coisa quando a bola tocar no batedor.
 9. Dentro do bloco do Se coloque o comando `aponte para a direção <90>`, mas altere o valor para -90, lembre do sinal de negativo, pois isso fará a bola ir para a esquerda, quando tocar no batedor.
-10. Pronto, a Figura 4.12 apresenta a solução, note que há um código para a bola e um para o batedor. Tente entender todos os códigos que usamos e o motivo do uso e teste.
+10. Pronto, a Figura 4.14 apresenta a solução, note que há um código para a bola e um para o batedor. Tente entender todos os códigos que usamos e o motivo do uso e teste.
+11. Se quiser testar o código no Scratch, veja em [https://scratch.mit.edu/projects/554919175/](https://scratch.mit.edu/projects/554919175/).
 
-![Figura 4.13. Solu&#xE7;&#xE3;o do c&#xF3;digo para o batedor e a bola de baseball.](../.gitbook/assets/bola-batedor.gif)
+![Figura 4.14. Solu&#xE7;&#xE3;o do c&#xF3;digo para o batedor e a bola de baseball.](../.gitbook/assets/bola-batedor.gif)
 
 #### **Exercício Prático**
 
-Crie um jogo de colher maça, como na Figura 4.12. Para isso:
+Crie um jogo de colher maça, como na Figura 4.15. Para isso:
 
 1. Crie o jogo da colheita de maça;
 2. Use um sprite como o Bowl e a maça, Apple;
 3. Faça a maça cair aleatóriamente sempre começando do topo, variando apenas o eixo X;
 4. Faça a tigela \(Bowl\) movimentar junto com o mouse, variando apenas o eixo X;
 5. **Desafio**: Adicione pontuação.
+6. Não conseguiu fazer tudo? Veja o código em [Jogo Colheita Maça](https://scratch.mit.edu/projects/555416641/).
 
-![Figura 4.12. Exemplo de como ficar&#xE1; o exerc&#xED;cio de colher ma&#xE7;a.](../.gitbook/assets/scratch-colher-maca.png)
+![Figura 4.12. Exemplo de como ficar&#xE1; o exerc&#xED;cio de colher ma&#xE7;a.](../.gitbook/assets/jogo-colheita-maca-sem-codigo.gif)
 
 Até aqui você utilizou diversos recursos de programação sem saber exatamente seus conceitos, isso é incrível, pois mostra o quanto o Scratch é intuitivo, então, agora vou lhe ensinar todos os conceitos que servirão de base para o aprendizado de qualquer uma das linguagens nas próximas seções. 
 
