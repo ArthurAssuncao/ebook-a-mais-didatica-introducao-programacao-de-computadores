@@ -20,7 +20,9 @@ Se você reparar bem, este livro é para qualquer aluno de programação, porém
 
 ## Pilares do método
 
-Os pilares do método são simples e estão no meio de qualquer ensino, mas lembro que a ideia é fazer isso de forma sistemática.
+Os pilares do método são simples e estão no meio de qualquer ensino, mas lembro que a ideia é fazer isso de forma sistemática. Abaixo apresento uma frase sobre o que é ser um programador e desenvolver códigos.
+
+> Desenvolver códigos envolve resolver problemas, assim você primeiro entende o problema, depois divide o problema em pequenas partes e tenta resolver cada parte passo a passo, se necessário pesquinsado no Google ou fórum de desenvolvedores.
 
 ### Aprender a partir de erros
 
@@ -41,6 +43,10 @@ Programar é criar algoritmos em linguagens de programação, algoritmos são se
 ### Leitura de código
 
 É fundamental que o programador saiba ler os códigos, saiba o que cada comando faz para realizar testes de mesa com papel ou mentalmente, assim o aluno não se torna um progamador que trabalha na tentativa e erro, ele lê o código e avalia como funciona e o que deve ser corrigido.
+
+### Dividir em subproblemas
+
+
 
 ### Limitações do ensino de programação
 
