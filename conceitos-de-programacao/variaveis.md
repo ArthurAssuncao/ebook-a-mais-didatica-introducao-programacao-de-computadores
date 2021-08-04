@@ -1,8 +1,10 @@
-# 5. Variáveis
+# 5.1. Variáveis
 
 Antes de tudo devemos aprender que um **literal** é um valor fixo, "cru", de diversos tipos, como número inteiro, texto, números de ponto flutuante \(número com casas decimais\), booleanos \(verdadeiro e falso\) etc. Por exemplo: `10` é um literal do tipo número inteiro, `"arthur"` é um literal do tipo string\(texto, vetor \[espécie de lista\] de caracteres\) e assim por diante.
 
-Imagine a situação, você vai a uma festa e quer anotar o número de telefone de algumas pessoas para entrar em contato em busca de emprego. Pensando nisso, você tem a ideia de levar 10 papéis, durante a festa você anota o número das pessoas nos papéis, de um lado do papel você colocou o número de telefone e do outro lado você coloca o nome da pessoa. Neste exemplo, você armazenou dados de pessoas em papéis e, para identificá-los, você usou o nome da pessoa. Este é um ótimo exemplo de uso de variáveis. A variável é o papel que pode receber um valor, caso você erre, basta apagar e escrever novamente. De um lado está o valor da variável e do outro está o seu identificador.
+Imagine a situação, você encontra dois antigos amigos na rua e quer anotar o seus números de telefone. Mas no momento você está sem o seu celular, então resolve anotar com papel e caneta, de um lado do papel você colocou o número de telefone e do outro lado você coloca o nome da pessoa. Neste exemplo, você armazenou dados de pessoas em papéis \(variáveis\) e, para identificá-los \(identificador/nome da varíavel\), você usou o nome da pessoa. Este é um ótimo exemplo de uso de variáveis. A variável é o papel que pode receber um valor, caso você erre, basta apagar e escrever novamente, afinal é variável, pode mudar. De um lado está o valor da variável e do outro está o seu identificador, como mostra a Figura 5.1.1.
+
+![Figura 5.1.1. Exemplo de uso de vari&#xE1;veis usando pap&#xE9;is.](../.gitbook/assets/image%20%284%29.png)
 
 Assim, uma **variável** é uma região de memória para armazenar um valor \(como um literal\) que é identificada por um **identificador** \(nome\), sendo um nome simbólico para referenciar \(ou é associado a\) um valor que pode ser alterado ao longo do código. É como se fosse um papel onde você anota o número de telefone de alguém. Imagine a seguinte cena: você conhece o dono de uma empresa X, então pega um papel para anotar seu número de telefone, você pega o papel escreve com lápis de um lado dele Dono da Empresa X e do outro lado você anota o número de telefone dele. Nesta cena, o papel é a região de memória onde o telefone será escrito e `Dono da Empresa X` é o nome da variável que é o papel. Caso você o dono da empresa mude ou o número de telefone do dono se altere, você pode apagar o número anotado e colocar o novo número. Perceba que você define o nome da variável e o valor dela \(número de telefone\) pode ser alterado ao longo do tempo.
 
@@ -43,9 +45,9 @@ Essas variáveis podem ser de diversos **tipos**, ou melhor, podem receber valor
 * textos \(conjunto de caracteres\); e
 * arrays, conhecidos como vetores e matrizes \(conjunto de variáveis\).
 
-Os vetores e matrizes são conjuntos de variáveis. Na Figura 5.1 são ilustradas as regiões de memória para uma variável simples, um vetor \(matriz de uma dimensão\) e uma matriz. Perceba que um vetor e uma matriz são conjuntos de variáveis, podendo ser de qualquer tipo disponível \(há linguagens que permitem vários tipos diferentes em um vetor ou matriz\).
+Os vetores e matrizes são conjuntos de variáveis. Na Figura 5.1.2 são ilustradas as regiões de memória para uma variável simples, um vetor \(matriz de uma dimensão\) e uma matriz. Perceba que um vetor e uma matriz são conjuntos de variáveis, podendo ser de qualquer tipo disponível \(há linguagens que permitem vários tipos diferentes em um vetor ou matriz\).
 
-![Figura 5.1. Representa&#xE7;&#xE3;o visual de uma vari&#xE1;vel simples, um vetor e uma matriz.](../.gitbook/assets/variavel-vetor-matriz.png)
+![Figura 5.1.2 Representa&#xE7;&#xE3;o visual de uma vari&#xE1;vel simples, um vetor e uma matriz.](../.gitbook/assets/variavel-vetor-matriz.png)
 
 ## Constantes
 
@@ -143,15 +145,16 @@ console.log(contador) // error: Uncaught ReferenceError: contador is not defined
 6. O que é e para que serve um operador de atribuição? 
 7. Dê um exemplo sobre o uso de variável no mundo real, diferente do exemplo apresentado neste capítulo. 
 8. O que é uma constante? 
-9. O que é Tipagem dinâmica? 
-10. O que é Tipagem estática? 
-11. O que é Tipagem forte? 
-12. O que é Tipagem fraca? 
-13. O que é Inferência de tipo? 
-14. O que é Coerção implícita? 
-15. O que é Concatenação de strings? 
-16. O que é Escopo de Variável?
-17. Assinale os identificadores \(nomes de variáveis\) que são válidos e não marque os inválidos, considere regras mais comuns como eu explico neste capítulo: 
+9. Qual a diferença entre um vetor e uma variável?
+10. O que é Tipagem dinâmica? 
+11. O que é Tipagem estática? 
+12. O que é Tipagem forte? 
+13. O que é Tipagem fraca? 
+14. O que é Inferência de tipo? 
+15. O que é Coerção implícita? 
+16. O que é Concatenação de strings? 
+17. O que é Escopo de Variável?
+18. Assinale os identificadores \(nomes de variáveis\) que são válidos e não marque os inválidos, considere regras mais comuns como eu explico neste capítulo: 
 
 * [ ] \(X\)
 * [ ] XMU2

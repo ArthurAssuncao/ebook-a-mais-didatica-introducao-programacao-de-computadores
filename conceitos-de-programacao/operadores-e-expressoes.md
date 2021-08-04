@@ -1,4 +1,4 @@
-# 6. Operadores e Expressões
+# 5.2. Operadores e Expressões
 
 Para realizar operações ou comparações existem operadores, como na matemática. Essas operações são úteis para, por exemplo somar, subtrair, dividir, multiplicar valores literais ou variáveis, comparar se uma variável é maior que um valor literal ou outra variável e muito mais. Caso não tenha entendido, imagine que um usuário digite a idade em um sistema de compra de bebida alcoólica, o sistema pode verificar se está idade é igual ou maior que 18 \(idade mínima para consumo de bebidas alcoólicas no Brasil\).
 

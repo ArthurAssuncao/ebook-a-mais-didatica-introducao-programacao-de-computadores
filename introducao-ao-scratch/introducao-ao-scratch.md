@@ -54,7 +54,7 @@ E mais, no Scratch, temos tudo isso, primeiro vamos utilizar todos esses conceit
 
 Para iniciar com Scratch, é possível realizar o download ou usar a interface web. Vamos usar a versão Web e, para isso, acessar o site [Scratch.mit.edu](http://scratch.mit.edu/) e clicar em Comece a Criar. Antes de tudo coloque o site em Português, clique no Globo e marque Português Brasileiro, como mostra a Figura 4.1.
 
-![Figura 4.1. Como alterar o idioma da interface web do Scratch.](../.gitbook/assets/image%20%284%29.png)
+![Figura 4.1. Como alterar o idioma da interface web do Scratch.](../.gitbook/assets/image%20%2812%29.png)
 
 Isso nos leva a interface web do Scratch, como a Figura 4.2 apresenta. 
 

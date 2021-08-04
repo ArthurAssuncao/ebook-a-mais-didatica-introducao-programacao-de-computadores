@@ -1,5 +1,9 @@
 # 1. Por que Aprender a Programar
 
+Seja bem-vindo, ao longo do livro irei te ensinar e te mostrar que programar é muito mais fácil do que tem sido ou do que seria se aprendesse com um professor tradicional. Se quiser ter uma visão geral assista ao vídeo [Introdução à Programação e Algoritmos](https://www.youtube.com/watch?v=5omj9Sm7cmA) onde explico o mapa conceitual da Figura 1.1.
+
+![Figura 1.1. Mapa conceitual sobre conceitos importantes da programa&#xE7;&#xE3;o apresentados no v&#xED;deo.](.gitbook/assets/fluxograma-introducao-a-programacao.png)
+
 ## O que é a Programação ou Desenvolvimento de Software?
 
 Se você está se familiarizando apenas agora com o termo, saiba que programação, de uma forma mais didática, é a arte de criar programas de computador utilizando uma linguagem de programação e estes programas são nada mais que conjuntos de instruções que indicam ao computador o que ele deve fazer, pense nas linguagens de programação como linguagens naturais como Português, Matemática, Libras e outras, contudo na programação você usa uma linguagem para se comunicar com os computadores.

@@ -17,20 +17,20 @@
 
 ## 5. Conceitos de Programação <a id="conceitos-de-programacao"></a>
 
-* [5. Variáveis](conceitos-de-programacao/variaveis.md)
-* [6. Operadores e Expressões](conceitos-de-programacao/operadores-e-expressoes.md)
-* [7. Entrada e saída de dados](conceitos-de-programacao/7.-entrada-e-saida-de-dados.md)
-* [8. Estruturas Condicionais](conceitos-de-programacao/8.-estruturas-condicionais.md)
-* [9. Estruturas de Repetição](conceitos-de-programacao/9.-estruturas-de-repeticao.md)
-* [10. Manipulando vetores e matrizes](conceitos-de-programacao/10.-manipulando-vetores-e-matrizes.md)
-* [11. Criação de funções](conceitos-de-programacao/11.-criacao-de-funcoes.md)
-* [12. Manipulação de Arquivos](conceitos-de-programacao/12.-manipulacao-de-arquivos.md)
-* [13. Manipulação de Strings](conceitos-de-programacao/13.-manipulacao-de-strings.md)
-* [14. Boas práticas e Padrões de Código](conceitos-de-programacao/boas-praticas-e-padroes-de-codigo.md)
+* [5.1. Variáveis](conceitos-de-programacao/variaveis.md)
+* [5.2. Operadores e Expressões](conceitos-de-programacao/operadores-e-expressoes.md)
+* [5.3. Entrada e saída de dados](conceitos-de-programacao/7.-entrada-e-saida-de-dados.md)
+* [5.4. Estruturas Condicionais](conceitos-de-programacao/8.-estruturas-condicionais.md)
+* [5.5. Estruturas de Repetição](conceitos-de-programacao/9.-estruturas-de-repeticao.md)
+* [5.6. Manipulando vetores e matrizes](conceitos-de-programacao/10.-manipulando-vetores-e-matrizes.md)
+* [5.7. Criação de funções](conceitos-de-programacao/11.-criacao-de-funcoes.md)
+* [5.8. Manipulação de Arquivos](conceitos-de-programacao/12.-manipulacao-de-arquivos.md)
+* [5.9. Manipulação de Strings](conceitos-de-programacao/13.-manipulacao-de-strings.md)
+* [5.10. Boas práticas e Padrões de Código](conceitos-de-programacao/boas-praticas-e-padroes-de-codigo.md)
 
-## Programação com Scratch
+## 6. Programação com Scratch <a id="programacao-com-scratch"></a>
 
-* [Aprenda a usar variáveis em Scratch](programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
+* [6.1. Aprenda a usar variáveis em Scratch](programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
 
 ## Programação com Portugol
 
