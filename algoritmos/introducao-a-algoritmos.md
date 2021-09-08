@@ -11,9 +11,11 @@ description: >-
 
 O primeiro passo no aprendizado de programação é entender o conceito mais fundamental de todos, o conceito de algoritmo.
 
-Algoritmo é uma sequência lógica de instruções a serem executadas para se realizar alguma tarefa, assim, um programa é uma formalização de um ou mais algoritmos, seguindo suas regras, chamadas de semântica e sintaxe, de forma que permita que o computador entenda e execute tais instruções.
+Algoritmo é uma **sequência lógica de instruções a serem executadas para se realizar alguma tarefa**, assim, um programa é uma formalização de um ou mais algoritmos, seguindo suas regras, chamadas de semântica e sintaxe, de forma que permita que o computador entenda e execute tais instruções.
 
-Não se preocupe com o significado de semântica e sintaxe, na próxima seção esses conceitos serão explicados.
+{% hint style="info" %}
+Não se preocupe com o significado de semântica e sintaxe, ao longo do ebook, esses conceitos serão explicados.
+{% endhint %}
 
 Um simples exemplo de algoritmo seria a tarefa de trocar uma lâmpada queimada de uma sala. Poderíamos montar um algoritmo em português da seguinte forma:
 
@@ -39,6 +41,10 @@ Ambos algoritmos escritos em português realizam a mesma tarefa, mas porque são
 
 {% hint style="info" %}
 Nível de abstração é o quão detalhado um código é, quanto maior o nível de abstração, menor é o número de detalhes aparentes no código, isso não significa que detalhes não sejam cobertos pelo código, apenas são 'escondidos'.
+
+Mais detalhes == Menos abstração
+
+Menos detalhes == Mais abstração
 {% endhint %}
 
 {% tabs %}
@@ -59,7 +65,7 @@ Retirar o cartão
 {% endtab %}
 
 {% tab title="Aprenda com erros!" %}
-1\) Monte um algoritmo para fazer arroz, mostre o algoritmo a um amigo e pergunte se o passo a passo que você escreveu permite que ele faça o arroz ou se faltam informações.
+1\) Monte um algoritmo para fazer arroz, mostre o algoritmo a um amigo e pergunte se o passo a passo que você escreveu permite que ele faça o arroz, caso faltem informações, complete o algoritmo e compare a solução inicial e a final.
 {% endtab %}
 
 {% tab title="Reflita!" %}
@@ -74,6 +80,16 @@ Aguardar o caixa realizar a contagem dos produtos e preços ('passar todos produ
 Digitar a senha do cartão de crédito
 Pegar o comprovante de compra
 ```
+{% endtab %}
+
+{% tab title="Dividir para conquistar" %}
+1\) Você quer estudar inglês usando um caderno e vídeos no site do TED, porém não tem caderno e não sabe quais vídeos.
+
+Vamos dividir o problema em 3 subproblemas, lembre que cada subproblema pode ter subsubproblemas, caso necessário.
+
+1. Comprar o caderno.
+2. Selecionar vídeos do TED, por exemplo, vídeos de até 5 minutos sobre assuntos fáceis de entender.
+3. Organizar como será feito o estudo diário.
 {% endtab %}
 
 {% tab title="Passo a passo" %}
@@ -146,7 +162,7 @@ Enquanto contador for menor que número de elementos faça
 ```
 {% endtab %}
 
-{% tab title="Faça Exercícios" %}
+{% tab title="Do it!" %}
 1\) Escreva um algoritmo em português que consista no passo a passo das suas atividades ao se levantar até a hora do almoço nas terças-feiras.
 
 2\) Faça um algoritmo que leia as notas de 4 bimestres de um aluno e calculo a sua nota final, considere a nota final como a soma das quatro notas.
@@ -182,20 +198,18 @@ Fonte: https://www.programasaudefacil.com.br/calculadora-de-imc.
 {% endtab %}
 {% endtabs %}
 
-
-
 {% hint style="info" %}
-Testar um código com a própria mente ou no papel usando dados de teste constitui uma técnica muito importânte e útil chamada Teste de Mesa. Leia mais em [O que é um Teste de Mesa? Como aplicá-lo?](https://pt.stackoverflow.com/questions/220474/o-que-%c3%a9-um-teste-de-mesa-como-aplic%c3%a1-lo).
+Testar um código com a própria mente ou no papel usando dados de teste \(inventados\) constitui uma técnica muito importânte e útil chamada Teste de Mesa. Leia mais em [O que é um Teste de Mesa? Como aplicá-lo?](https://pt.stackoverflow.com/questions/220474/o-que-%c3%a9-um-teste-de-mesa-como-aplic%c3%a1-lo).
 {% endhint %}
 
 ### Formas de Representação de Algoritmos
 
 Existem algumas formas de representar sequências de instruções, dentre elas destaco:
 
-* Narrativa: É a descrição em linguagem natural, como o português. O exemplo da troca de lâmpada é uma descrição narrativa.
-* Fluxograma: É a descrição usando a linguagem visual e descritiva dos fluxogramas, a Figura 3.1 exemplifica.
-* Pseudo-código: Consiste no uso de uma linguagem de programação "falsa" em linguagem natural, como o português. Por exemplo, existe uma linguagem de pseudo-código em português, ele imita a ideia de uma linguagem de programação usando linguagem natural, seria o meio termo entre linguagem de programação e a descrição narrativa.
-* Linguagem de programação: Uma linguagem de códigos que são interpretados e/ou compilados pelo computador para ser executado e realizar tarefas, tem semântica e sintaxe bem definidos e é usada para criar programas de computador. Exemplo: Portugol, Scilab, C, Pascal etc.
+* **Narrativa**: É a descrição em linguagem natural, como o português. O exemplo da troca de lâmpada é uma descrição narrativa.
+* **Fluxograma**: É a descrição usando a linguagem visual e descritiva dos fluxogramas, a Figura 3.1 exemplifica.
+* **Pseudo-código**: Consiste no uso de uma linguagem de programação "falsa" em linguagem natural, como o português. Por exemplo, existe uma linguagem de pseudo-código em português, ele imita a ideia de uma linguagem de programação usando linguagem natural, seria o meio termo entre linguagem de programação e a descrição narrativa.
+* **Linguagem de programação**: Uma linguagem de códigos que são interpretados e/ou compilados pelo computador para ser executado e realizar tarefas, tem semântica e sintaxe bem definidos e é usada para criar programas de computador. Exemplo: Portugol, Scilab, C, Pascal etc.
 
 Veja abaixo um exemplo de código em cada uma das linguagem para fazer a mesma coisa, verifica se um aluno está aprovado, reprovado ou em recuperação.
 
