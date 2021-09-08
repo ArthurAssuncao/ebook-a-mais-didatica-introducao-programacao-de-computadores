@@ -209,11 +209,11 @@ Existem algumas formas de representar sequências de instruções, dentre elas d
 * **Narrativa**: É a descrição em linguagem natural, como o português. O exemplo da troca de lâmpada é uma descrição narrativa.
 * **Fluxograma**: É a descrição usando a linguagem visual e descritiva dos fluxogramas, a Figura 3.1 exemplifica.
 * **Pseudo-código**: Consiste no uso de uma linguagem de programação "falsa" em linguagem natural, como o português. Por exemplo, existe uma linguagem de pseudo-código em português, ele imita a ideia de uma linguagem de programação usando linguagem natural, seria o meio termo entre linguagem de programação e a descrição narrativa.
-* **Linguagem de programação**: Uma linguagem de códigos que são interpretados e/ou compilados pelo computador para ser executado e realizar tarefas, tem semântica e sintaxe bem definidos e é usada para criar programas de computador. Exemplo: Portugol, Scilab, C, Pascal etc.
+* **Linguagem de programação**: Uma linguagem de códigos que são interpretados e/ou compilados pelo computador para ser executado e realizar tarefas, tem semântica e sintaxe bem definidos e é usada para criar programas de computador. Exemplo: Portugol, Scilab, C, Pascal, JavaScript, Java, Python, Ruby etc.
 
 Veja abaixo um exemplo de código em cada uma das linguagem para fazer a mesma coisa, verifica se um aluno está aprovado, reprovado ou em recuperação.
 
-**Código 3.1. Exemplo de Código em linguagem Narrativa**
+**Código 3.1. Exemplo de Código em linguagem Narrativa.**
 
 ```text
 Ler a idade do usuário
@@ -221,11 +221,11 @@ Subtrair a idade da pessoa do ano passado
 Apresentar o resultado para o usuário
 ```
 
-**Figura 3.1. Exemplo de Fluxograma**
+**Figura 3.1. Exemplo de Fluxograma.**
 
 ![Figura 3.1. Fluxograma para informar se um aluno foi aprovado com base em sua nota.](../.gitbook/assets/fluxograma-exemplo.png)
 
-**Código 3.2. Exemplo de Código em Pseudo-código**
+**Código 3.2. Exemplo de Código em Pseudo-código.**
 
 ```text
 Algoritmo 1: Exemplo de Pseudo-código
@@ -246,7 +246,7 @@ fim
 retorna resultado
 ```
 
-**Código 3.3. Exemplo de Código em Portugol Clássico**
+**Código 3.3. Exemplo de Código em Portugol Clássico.**
 
 ```text
 DECLARA nota:NUMERO
@@ -263,7 +263,7 @@ SENAO
 FIMSE
 ```
 
-**Código 3.4. Exemplo de Código em Portugol do Portugol Studio**
+**Código 3.4. Exemplo de Código em Portugol do Portugol Studio.**
 
 ```text
 programa {
@@ -287,7 +287,7 @@ programa {
 
 ```
 
-**Código 3.5. Exemplo de Código em C**
+**Código 3.5. Exemplo de Código em C.**
 
 ```text
 #include <stdio.h>
@@ -312,21 +312,69 @@ int main()
 }
 ```
 
+**Código 3.6. Exemplo de Código em Python**
+
+```text
+nota = input("Digite a nota: ")
+nota = int(nota)
+
+if nota >= 6:
+    print("Aprovado")
+elif nota >= 4:
+    print("Recuperação")
+else:
+    print("Reprovado")
+```
+
+**Código 3.7. Exemplo de Código em JavaScript.**
+
+```text
+let nota = window.prompt("Digite a nota: ","");
+nota = parseInt(nota, 10);
+
+if (nota >= 6){
+    window.alert("Aprovado");
+}
+else if(nota >= 4){
+    window.alert("Recuperação");
+}
+else{
+    window.alert("Reprovado");
+}
+```
+
+{% hint style="info" %}
+Códigos em JavaScript não costumam utilizar comandos de entrada e saída, como window.prompt e window.alert, pois a linguagem JavaScript costuma ser usada em conjunto com o HTML, então o HTML se torna sua interface com o usuário.
+{% endhint %}
+
 ### Linguagem de Programação
 
-Uma linguagem de programação é uma forma precisa de descrever algoritmos, permitindo a comunicação do programador \(aquele que cria o código\) com o computador e, assim, criar programas para realizar tarefas.
+Uma linguagem de programação é uma **forma precisa de descrever algoritmos**, permitindo a comunicação do programador \(aquele que cria o código\) com o computador e, assim, criar programas para realizar tarefas.
 
 Há várias linguagens de programação, cada uma para uma finalidade e com suas vantagens e desvantagens. Uma linguagem de programação é composta por **Sentenças \(statements\)**, que são como frases, linhas de código, cada uma sentença com **Expressões \(expressions\)**, estas expressões são fragmentos do código, partes dele, que contém **palavras-chave \(keywords\)** ou **palavras reservadas**, elementos criados pelo usuário, funções, operadores e **literais** \(valores fixos no código, como números, caracteres, palavras etc\).
 
-Um conjunto de Sentenças pode ser chamado de **Bloco de código**, geralmente esse bloco é delimitado pela abertura e fechamento de **chaves** `{` e `}`, contudo há linguagens que usam outras formas de delimitar um bloco, como o Python que usa a indentação para delimitar blocos. A **Indentação** é um espaço \(2 ou 4 caracteres espaço ou 1 tabular\) a mais antes de cada linha \(sentença\) indicando que tal linha está dentro de alguma linha anterior. Tudo isso tem como intuito organizar códigos e deve sempre ser usada, pois melhora a legibilidade do código.
+{% hint style="info" %}
+Não tente decorar as palavras-chave de uma linguagem, mas entenda como montar Sentenças e Expressões.
+{% endhint %}
 
-No código 3.6 apresento um código em Portugol para exemplificar o que cada termo significa. Perceba que cada linha pode ser considerada uma Sentença, exceto as linhas com chaves, pois apenas delimitam início e fim de blocos de códigos. O primeiro bloco de código inicia na linha 2, este termina na linha 14, todo código dentro desse bloco está com um recuo chamado de indentação. Na linha 4 um bloco é iniciado e termina na linha 12, todo código dentro desse bloco pertence \(está dentro\) ao que está sendo chamado de `funcao inicio()` e está com um recuo maior. Mais abaixo na linha 10, temos um bloco começando, perceba que o símbolo de chaves foi usado no final da linha, pois ele pode ser usado no final de uma sentença ou no início da próxima linha, pois linhas em branco e espaços após códigos não são considerados como códigos, apenas como espaços sem significado. 
+Um conjunto de Sentenças pode ser chamado de **Bloco de código**, geralmente esse bloco é delimitado pela abertura e fechamento de **chaves** `{` e `}`, contudo há linguagens que usam outras formas de delimitar um bloco, como o Python que usa a indentação para delimitar blocos. A **Indentação** é um espaço \(2 ou 4 caracteres espaço ou 1 tabular/tab\) a mais antes de cada linha \(sentença\) indicando que tal linha está dentro de alguma linha anterior. Tudo isso tem como intuito organizar códigos e deve sempre ser usada, pois melhora a legibilidade do código.
+
+**Código 3.8. Exemplo de Indentação de código.**
+
+```text
+código1 // linha sem indentação
+    código2 // linha com indentação de um tab
+        código3 // linha com indentação de dois tabs
+    codigo4 // linha com indentação de um tab
+```
+
+No código 3.9 apresento um código em Portugol para exemplificar o que cada termo significa. Perceba que cada linha pode ser considerada uma Sentença, exceto as linhas com chaves, pois apenas delimitam início e fim de blocos de códigos. O primeiro bloco de código inicia na linha 2, este termina na linha 14, todo código dentro desse bloco está com um recuo chamado de indentação. Na linha 4 um bloco é iniciado e termina na linha 12, todo código dentro desse bloco pertence \(está dentro\) ao que está sendo chamado de `funcao inicio()` e está com um recuo maior. Mais abaixo na linha 10, temos um bloco começando, perceba que o símbolo de chaves foi usado no final da linha, pois ele pode ser usado no final de uma sentença ou no início da próxima linha, pois linhas em branco e espaços após códigos não são considerados como códigos, apenas como espaços sem significado. 
 
 Além de tudo isso, as palavras `programa`, `funcao`, `inicio`, `inteiro`, `se` são palavas-chave, pois são palavras reservadas pela linguagem e possuem significado, não podendo ser utilizadas para fins diferentes do que foram pré-definidos.
 
 O valor 10 e os textos, como `Digite o valor de X:` são literais, pois são valores 'crus' e podemos, também, dizer que estão hardcoded, ou seja, escritos diretamente no código. Enquanto `Escreva` e `leia` são funções nativas \(que já vem com a linguagem\) da linguagem e o símbolo de `>` é um operador \(operador relacional\).
 
-Código 3.6. Exemplo de conceitos em Portugol Studio.
+**Código 3.9. Exemplo de conceitos em Portugol Studio.**
 
 ```text
 programa
@@ -347,22 +395,22 @@ programa
 
 Além disso, as linguagens tem todas suas regras definidas por meio de sua sintaxe e sua semântica.
 
-* sintaxe: consiste nas regras de comandos e palavras reservadas da linguagem e de como elas devem ser usadas em conjunto. As palavras reservadas separadamente formam a parte léxica do código e seguem as regras lexicais da linguagem.
-* semântica: se refere ao uso lógico das palavras reservadas \(keyword\), comandos etc, por exemplo se o uso de determinada palavra reservada faz sentido em um contexto específico ou se uma variável de um tipo está recebendo esse tipo ou outro tipo incompatível.
+* **sintaxe**: consiste nas regras de comandos e palavras reservadas da linguagem e de como elas devem ser usadas em conjunto. As palavras reservadas separadamente formam a parte léxica do código e seguem as regras lexicais da linguagem. No português, o uso das palavras em conjunto para formar frases é um exemplo de Sintaxe.
+* **semântica**: se refere ao uso lógico das palavras reservadas \(keyword\), comandos etc, por exemplo se o uso de determinada palavra reservada faz sentido em um contexto específico ou se uma variável de um tipo está recebendo esse tipo ou outro tipo incompatível. No português, o uso correto de certas palavras ou frases mantendo um texto fazendo sentido é a semântica, entenda que é possível formar frases sintaticamente corretas, mas que não fazem sentido em um determinado contexto, ou seja, sem atender a semântica.
 
 #### Estrutura Básica de um Algoritmo em Linguagem de Programação
 
-A seguir, na Figura 3.2 é apresentado um diagrama de uma estrutura comum em algoritmos criados em linguagem de programação. É importante notar que todos programas/códigos criados a partir de agora em linguagem Scilab, C ou no Portugol Studio utilizarão uma estrutura parecida.
+A seguir, na Figura 3.2 é apresentado um diagrama de uma estrutura comum em algoritmos criados em linguagem de programação. É importante notar que todos programas/códigos criados a partir de agora em linguagem Scilab, C, no Portugol Studio ou outra linguagem utilizarão uma estrutura parecida.
 
 ![Figura 3.2. Diagrama de uma estrutura comum em algoritmos.](../.gitbook/assets/diagrama-estrutura-algoritmos.png)
 
 #### Tipos de Linguagens de Programação
 
-As linguagens costumam ser classificadas de várias formas, uma é quanto ao nível de abstração e permite a separação em linguagens de alto e baixo nível. Quanto mais próximo dos códigos de máquina e, até, dos binários, mais baixo é o nível da linguagem. Por exemplo, uma linguagem como Assembly é muito difícil de ser entendida por um humano, sendo mais próxima da linguagem de máquina e uma linguagem como Python é muito próxima da linguagem humana, assim a primeira é de baixo nível e a segunda de alto nível. Portanto, você já deve ter percebido que, atualmente, quase todas linguagens utilizadas, como C, PHP, Java, C\#, Python, Ruby etc são de alto nível, pois fornecem um bom grau de abstração. Lembro que há autores que indicam a linguagem C como um médio nível, mas não é consenso e veremos que ela é um pouco mais difícil que outras, mas ainda é bastante próxima ao inglês.
+As linguagens costumam ser classificadas de várias formas, uma é quanto ao **nível de abstração** e permite a separação em linguagens de **alto** e **baixo nível**. Quanto mais próximo dos códigos de máquina e, até, dos binários, mais baixo é o nível da linguagem. Por exemplo, uma linguagem como Assembly é muito difícil de ser entendida por um humano, sendo mais próxima da linguagem de máquina e uma linguagem como Python é muito próxima da linguagem humana, assim a primeira é de baixo nível e a segunda de alto nível. Portanto, você já deve ter percebido que, atualmente, quase todas linguagens utilizadas, como C, PHP, Java, C\#, Python, Ruby etc são de alto nível, pois fornecem um bom grau de abstração. Lembro que há autores que indicam a linguagem C como um médio nível, mas não é consenso e veremos que ela é um pouco mais difícil que outras, mas ainda é bastante próxima ao inglês.
 
-Se para você não ficou claro, vou apresentar três códigos que fazem a mesma coisa em três linguagens, Assembly, C e Python para você notar a diferença entre os níveis. Os códigos-fonte estão respectivamente nos códigos \ref{code:exemplo-assembly}, \ref{code:exemplo-c} e \ref{code:exemplo-python}. Acredito que após a leitura dos códigos, você irá considerar a primeira, de baixo nível, como a mais difícil de ser entendida, para não dizer impossível.
+Se para você não ficou claro, vou apresentar três códigos que fazem a mesma coisa em três linguagens, Assembly, C e Python para você notar a diferença entre os níveis. Os códigos-fonte estão respectivamente nos códigos 3.10, 3.11 e 3.12. Acredito que após a leitura dos códigos, você irá considerar a primeira, de baixo nível, como a mais difícil de ser entendida, para não dizer impossível.
 
-Código 3.7. Exemplo de código na linguagem de baixo nível Assembly. Adaptado do código-fonte do [ASM](http://asm.sourceforge.net/).
+Código 3.10. Exemplo de código na linguagem de baixo nível Assembly. Adaptado do código-fonte do [ASM](http://asm.sourceforge.net/).
 
 ```text
 section     .text
@@ -385,7 +433,7 @@ msg     db  'Ola, mundo!',0xa                 ;our dear string
 len     equ $ - msg   
 ```
 
-Código 3.8. Exemplo de código na linguagem de alto nível C.
+Código 3.11. Exemplo de código na linguagem de alto nível C.
 
 ```text
 #include<stdio.h>
@@ -395,7 +443,7 @@ int main(){
 }
 ```
 
-Código 3.9. Exemplo de código na linguagem de alto nível Python.
+Código 3.12. Exemplo de código na linguagem de alto nível Python.
 
 ```text
 print('Olá, mundo!')
@@ -403,37 +451,37 @@ print('Olá, mundo!')
 
 ### Tipos de Linguagem
 
-Outra forma de classificar linguagens é quanto a sua execução, podendo ser compilada ou interpretada, assim classificamos se o código será executado junto com sua análise ou se primeiro será realizada a verificação do código e depois será gerado um novo código em linguagem de baixo nível, este último, de fato, para ser executado. Destaco que o correto não é dizer que uma linguagem é ou não compilada, pois todas podem ser compiladas ou interpretadas, pois a **Especificação** da linguagem não define como ela será **Implementada**, a implementação, sim, pode ser de uma forma que deve ser compilada ou interpretada. Contudo, como não é comum termos implementações muito diferentes, dizemos que a linguagem X é interpretada ou compilada em vez de a implementação Y da linguagem X é interpretada ou compilada. 
+Outra forma de classificar linguagens é quanto a sua execução, podendo ser **compilada** ou **interpretada**, assim classificamos se o código será executado junto com sua análise ou se primeiro será realizada a verificação do código e depois será gerado um novo código em linguagem de baixo nível, este último, de fato, para ser executado. Destaco que o correto não é dizer que uma linguagem é ou não compilada, pois todas podem ser compiladas ou interpretadas, pois a **Especificação** da linguagem não define como ela será **Implementada**, a implementação, sim, pode ser de uma forma que deve ser compilada ou interpretada. Contudo, como não é comum termos implementações muito diferentes, dizemos que a linguagem X é interpretada ou compilada em vez de a implementação Y da linguagem X é interpretada ou compilada. 
 
 Antes de explicarmos melhor cada tipo, explico alguns termos:
 
-* Análise léxica: É a análise de palavras-chave e outros termos de partes do código, podendo ser de linhas, blocos ou partes menores. Esta análise verifica as linhas e gera sequências de símbolos, conhecidos como **Lexical Tokens**, estes símbolos são passados para a etapa de análise sintática;
-* Análise Sintática: É uma análise feita com os símbolos do código onde se verifica se estão corretos e se estão sendo utilizados de forma correta.
-* Análise Semântica: Costuma ser a última etapa de análises onde verifica erros semânticos, como divisão de um número por zero.
+* **Análise léxica**: É a análise de palavras-chave e outros termos de partes do código, podendo ser de linhas, blocos ou partes menores. Esta análise verifica as linhas e gera sequências de símbolos, conhecidos como **Lexical Tokens**, estes símbolos são passados para a etapa de análise sintática;
+* **Análise Sintática**: É uma análise feita com os símbolos do código onde se verifica se estão corretos e se estão sendo utilizados de forma correta.
+* **Análise Semântica**: Costuma ser a última etapa de análises onde verifica erros semânticos, como divisão de um número por zero.
 
 E ainda há os tipos de compilação:
 
-* Linguagem Compilada: Esta é a forma mais tradicional, onde um compilador analisa o código fonte utilizando a análise léxica, sintática e semântica, nesta ordem. Em seguida, um código em linguagem de máquinas é gerado para que possa ser executado. Exemplo de linguagens compiladas: C e Java.
-* Linguagem Interpretada: As linguagens interpretadas utilizam um interpretador que realiza as análises, como na linguagem compilada, contudo ele realiza esta tarefa parte a parte, bloco a bloco ou linha a linha, como no Python.
+* **Linguagem Compilada**: Esta é a forma mais tradicional, onde um compilador analisa o código fonte utilizando a análise léxica, sintática e semântica, nesta ordem. Em seguida, um código em linguagem de máquinas é gerado para que possa ser executado. Exemplo de linguagens compiladas: C e Java.
+* **Linguagem Interpretada**: As linguagens interpretadas utilizam um interpretador que realiza as análises, como na linguagem compilada, contudo ele realiza esta tarefa parte a parte, bloco a bloco ou linha a linha, como no Python e JavaScript.
 
-Perceba que a maior diferença é que a linguagem interpretada executa o código 'ao mesmo tempo' que o analisa e a compilada gera um código para ser executado. E, lembre, boa parte das definições não são exatas podendo uma implementação de uma linguagem se encaixar nas duas definições ou, até, podem depender de contexto, por exemplo, 'tal linguagem é interpretada levando o que em consideração?'.
+Perceba que a maior diferença é que a linguagem interpretada executa o código `ao mesmo tempo` que o analisa e a compilada gera um código para ser executado. E, lembre, boa parte das definições não são exatas podendo uma implementação de uma linguagem se encaixar nas duas definições ou, até, podem depender de contexto, por exemplo, `tal linguagem é interpretada levando o que em consideração?`.
 
 Caso se interesse pelos termos, sugiro ler a discussão no StackOverflow sobre [Qual a diferença entre linguagem compilada para linguagem interpretada?](https://pt.stackoverflow.com/questions/77070/qual-a-diferen%C3%A7a-entre-linguagem-compilada-para-linguagem-interpretada)
 
 ### Paradigmas de Programação
 
-As linguagens de programação, ainda, podem ser classificadas pelos paradigmas que podem ser aplicados aos códigos, podendo haver um ou mais paradigmas. Eles podem ser entendidos como formas de se poder escrever um código ou o padrão para a escrita dos códigos. Ressalto que não há um consenso em relação aos paradigmas, como mostro no parágrafo abaixo, contudo é interessante ter uma noção de explicações mais comuns sobre o tema. Assim, apresento abaixo os paradigmas de uma forma mais didática e separada onde separamos em dois grandes mundos, o Imperativo e o Declarativo, o primeiro diz **como** fazer e o segundo diz **o que** fazer, como assim? 
+As linguagens de programação, ainda, podem ser classificadas pelos **paradigmas** que podem ser aplicados aos códigos, podendo haver um ou mais paradigmas. Eles podem ser entendidos como formas de se poder escrever um código ou o padrão para a escrita dos códigos. Ressalto que não há um consenso em relação aos paradigmas, como mostro no parágrafo abaixo, contudo é interessante ter uma noção de explicações mais comuns sobre o tema. Assim, apresento abaixo os paradigmas de uma forma mais didática e separada onde separamos em dois grandes mundos, o **Imperativo** e o **Declarativo**, o primeiro diz **como** fazer e o segundo diz **o que** fazer, como assim? 
 
 Peço que leia sem querer entender muito dos conceitos, pois estamos iniciando a jornada, releia ao final do livro ou em momentos posteriores, desta forma, explico os termos segundo o que julgo mais correto:
 
-* Imperativo: Este paradigma indica o que deve ser feito por meio do código, ou seja, é imperativo \(lembra das aulas de português?!!\). Neste modo, temos que as variáveis tem um estado \(valor\) que é alterado ao longo do código. Assim, quando você programa naturalmente você estará usando este paradigma, pois códigos dizem ao computador o que deve ser feito.
-* Procedural: Esse paradigma é caracterizado pelo uso de procedimentos \(funções\) nativos da linguagem ou criados pelo usuário. Se assemelha e, é até considerado, igual aos paradigmas Estruturado e Imperativo.
-* Estruturado: Esse paradigma é caracterizado pela sequência lógica, decisão e iteração de códigos e se assemelha e, é até considerado, igual aos paradigmas Procedural e Imperativo.
-* Orientado a Objetos: Lembra do estado no paradigma imperativo? A orientação à objetos estende o conceito de estado para tipos definidos pelo usuário, contudo não são tipos simples, são Classes onde há estados \(variáveis que são chamadas de atributos\), principalmente internos \(senão fere o conceito de encapsulamento. Deixe esse termo de lado\) e ações \(funções que são chamadas de métodos\). Tudo isso ajuda na organização do código e, também, eleva o nível de abstração do código, facilitando entendimento. Assim, se você tem diversos Objetos que são dos tipos das Classes que você definiu e os usa como ponto central, significa que está programando com o paradigma Orientado a Objetos. Como exemplo de linguagens que permitem essa forma temos: C++, Java, Python, Javascript etc.
-* Funcional: De forma resumida e simples, poderia dizer que é o paradigma que utiliza funções como a base para organização do código, onde temos função que recebe como parâmetro \(algo que é passado para a função\) uma outra função. Função que retorna \(valor gerado pela função\) uma função etc. A sua definição chega a ser inexistente, contudo tente entender a diferença para a forma tradicional que esta evita o uso de variáveis para salvar o valor \(estado\) de alguma coisa, contudo ela praticamente sempre será usada junto com outros paradigmas. Ninguém programa apenas funcional e como exemplos de linguagens temos: Scala, Python, Javascript etc.
-* Declarativo: Este paradigma se preocupa apenas em declarar o que é preciso onde o computador irá definir como realizar tal tarefa. Normalmente você verá esse paradigma em linguagens de marcação \(não são programação\), como XML, HTML5 ou o SQL. Contudo, há quem diga que é possível usar Programação Declarativa em linguagens usando o Paradigma Funcional ou usando C\\# com o LINQ, por exemplo.
+* **Imperativo**: Este paradigma indica o que deve ser feito por meio do código, ou seja, é imperativo \(lembra das aulas de português?!!\). Neste modo, temos que as variáveis tem um estado \(valor\) que é alterado ao longo do código. Assim, quando você programa naturalmente você estará usando este paradigma, pois códigos dizem ao computador o que deve ser feito.
+* **Procedural**: Esse paradigma é caracterizado pelo uso de procedimentos \(funções\) nativos da linguagem ou criados pelo usuário. Se assemelha e, é até considerado, igual aos paradigmas Estruturado e Imperativo.
+* **Estruturado**: Esse paradigma é caracterizado pela sequência lógica, decisão e iteração de códigos e se assemelha e, é até considerado, igual aos paradigmas Procedural e Imperativo.
+* **Orientado a Objetos**: Lembra do estado no paradigma imperativo? A orientação à objetos estende o conceito de estado para tipos definidos pelo usuário, contudo não são tipos simples, são Classes onde há estados \(variáveis que são chamadas de atributos\), principalmente internos \(senão fere o conceito de encapsulamento. Deixe esse termo de lado\) e ações \(funções que são chamadas de métodos\). Tudo isso ajuda na organização do código e, também, eleva o nível de abstração do código, facilitando entendimento. Assim, se você tem diversos Objetos que são dos tipos das Classes que você definiu e os usa como ponto central, significa que está programando com o paradigma Orientado a Objetos. Como exemplo de linguagens que permitem essa forma temos: C++, Java, Python, Javascript etc.
+* **Funcional**: De forma resumida e simples, poderia dizer que é o paradigma que utiliza funções como a base para organização do código, onde temos função que recebe como parâmetro \(algo que é passado para a função\) uma outra função. Função que retorna \(valor gerado pela função\) uma função etc. A sua definição chega a ser inexistente, contudo tente entender a diferença para a forma tradicional que esta evita o uso de variáveis para salvar o valor \(estado\) de alguma coisa, contudo ela praticamente sempre será usada junto com outros paradigmas. Ninguém programa apenas funcional e como exemplos de linguagens temos: Scala, Python, Javascript etc.
+* **Declarativo**: Este paradigma se preocupa apenas em declarar o que é preciso onde o computador irá definir como realizar tal tarefa. Normalmente você verá esse paradigma em linguagens de marcação \(não são programação\), como XML, HTML5 ou o SQL. Contudo, há quem diga que é possível usar Programação Declarativa em linguagens usando o Paradigma Funcional ou usando C\\# com o LINQ, por exemplo.
 
-Há uma discussão muito interessante no Stackoverflow sobre paradigmas, leia e veja que não há um consenso, o texto se chama [O que é Paradigma](https://pt.stackoverflow.com/questions/141624/o-que-%C3%A9-paradigma). Além dele, há a teoria que diz que só [Há exatamente três paradigmas](http://wiki.c2.com/?ThereAreExactlyThreeParadigms). Ainda, há quem diga que [Programação Funcional não é um paradigma](http://wiki.c2.com/?FunctionalProgrammingIsNotaParadigm) e, acredite se quiser, há os que dizem que 'Não há claramente nenhum paradigma', no texto [There Are No Paradigms](http://wiki.c2.com/?ThereAreNoParadigms). Portanto, quando alguém falar sobre paradigmas com você, não discuta, estão todos certos e errados ao mesmo tempo.
+Há uma discussão muito interessante no Stackoverflow sobre paradigmas, leia e veja que não há um consenso, o texto se chama [O que é Paradigma](https://pt.stackoverflow.com/questions/141624/o-que-%C3%A9-paradigma). Além dele, há a teoria que diz que só [Há exatamente três paradigmas](http://wiki.c2.com/?ThereAreExactlyThreeParadigms). Ainda, há quem diga que [Programação Funcional não é um paradigma](http://wiki.c2.com/?FunctionalProgrammingIsNotaParadigm) e, acredite se quiser, há os que dizem que `Não há claramente nenhum paradigma`, no texto [There Are No Paradigms](http://wiki.c2.com/?ThereAreNoParadigms). Portanto, quando alguém falar sobre paradigmas com você, não discuta, estão todos certos e errados ao mesmo tempo.
 
 ### Exercícios
 
@@ -447,4 +495,5 @@ Há uma discussão muito interessante no Stackoverflow sobre paradigmas, leia e 
 * Crie um algoritmo narrativo, português estruturado e fluxograma que receba dois números e diga se o primeiro ou o segundo é o maior.
 * Crie um algoritmo narrativo que calcule 10 termos da série fibonacci.
 * Qual a principal diferença entre implementação de linguagem Interpretada e Compilada?
+* Cite três paradigmas de linguagens de programação.
 
