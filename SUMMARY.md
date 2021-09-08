@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Sobre o método](README.md)
+* [Sobre o livro e o método](README.md)
+* [TODO](todo.md)
 * [Sobre os autores](sobre-os-autores.md)
 * [Como o livro está organizado](como-o-livro-esta-organizado.md)
 * [Sumário](sumario.md)
