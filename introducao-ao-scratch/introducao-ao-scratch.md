@@ -7,9 +7,13 @@ description: >-
 
 # 4.1. Introdução ao Scratch
 
+{% hint style="info" %}
+Leia este capítulo mesmo que você não queira aprender a programar usando o Scratch, pois será uma experiência muito motivadora.
+{% endhint %}
+
 ## O que é Scratch
 
-O Scratch é um software de programação em blocos voltado para o ensino de programação para crianças e está na versão 3.0. Esta programação em blocos se difere da programação tradicional por conter blocos pré-definidos de códigos em formato visual de bloco em vez da forma escrita. Foi desenvolvido pelo MIT e está disponível de forma online por meio do acesso ao [site do Scratch](https://scratch.mit.edu/) em um navegador de internet, como o Google Chrome ou Firefox, ou pelo download do programa, disponível para Windows, Mac, ChromeOS e Android. Uma antiga versão, a 1.4, era compatível com distribuições Linux, contudo seu suporte foi descontinuado.
+O Scratch é um _software_ de **programação em blocos** voltado para o ensino de programação para crianças e está na versão 3.0. Esta programação em blocos se difere da programação tradicional por conter blocos pré-definidos de códigos em formato visual de bloco em vez da forma textual. Ele foi desenvolvido pelo MIT e está disponível de forma online por meio do acesso ao [site do Scratch](https://scratch.mit.edu/) em um navegador de internet, como o Google Chrome ou Firefox, ou pelo download do programa, disponível para Windows, Mac, ChromeOS e Android. Uma antiga versão, a 1.4, era compatível com distribuições Linux, contudo seu suporte foi descontinuado.
 
 ### Por quê utilizar o Scratch
 
@@ -21,7 +25,13 @@ Porque é muito mais motivador utilizá-lo, os programas criados são animaçõe
 
 ### Onde podemos utilizar o Scratch
 
-O melhor local para usar é no ensino, por ser uma ferramenta voltada à educação, e na criação de animações e jogos simples.
+O melhor local para usar é no ensino, por ser uma ferramenta voltada à educação, e na criação de animações e jogos simples ou educativos.
+
+### **Scratch voltado para o ensino**
+
+Recentemente gravei aulas sobre Scratch para o desenvolvimento de jogos educativos, caso se interesse assista em:
+
+{% embed url="https://www.youtube.com/watch?v=QSFiKsMTOLg" %}
 
 ### Onde NÃO vamos utilizar o Scratch
 
@@ -31,13 +41,15 @@ Não iremos utilizar para programas de forma geral e para criar jogos ou animaç
 
 O principal benefício do Scratch é facilitar o ensino de programação 1\) reduzindo a dificuldade no domínio das palavras reservadas, 2\) no entendimento das estruturas do código, 3\) a forma abstrata de se pensar, 4\) tornar a programação mais interessante e visual, dentre outras.
 
-Dessa forma, visando o aprendizado de forma mais fácil e motivador, vamos iniciar o ensino da programação com o Scratch, que é desenvolvido pelo MIT e que consiste em um sistema para programação em blocos. A linguagem em blocos é muito mais simples que a linguagem tradicional, textual com sentenças. É como brincar de Lego, e, assim, é fácil, intuitiva e motivadora.
+### Se prepare. Vamos começar!
+
+Dessa forma, visando o aprendizado de forma mais fácil e motivador, vamos iniciar o ensino da programação com o Scratch, que consiste em um sistema para programação em blocos. A linguagem em blocos é muito mais simples que a linguagem tradicional, textual com sentenças. É como brincar de Lego, e, assim, é fácil, intuitiva e motivadora.
 
 No Scratch, temos diversos conceitos de lógica de programação, como **variáveis**, **comandos de entrada e saída**, **desvio condicional**, **estruturas de repetição**, **criação de funções** e mais. A partir disso, podemos dizer que o Scratch é uma ferramenta completa para o ensino dessas disciplinas introdutórias a programação.
 
 Ainda, temos o Scratch como uma ferramenta que permite a criação de animações e jogos de forma simples e com visual bastante bonito, dependendo apenas da criatividade e dons com softwares de edição de imagens.
 
-Em resumo, o Scratch permite o ensino de forma simples e motivador, algo que as linguagens não costumam permitir. Contudo é importante lembrar que ele pode ser usado nas primeiras aulas, umas 8 aulas podem ser suficiente e depois pode-se iniciar o ensino das linguagens tradicionais, seja Portugol, Python ou C, por exemplo, esta última apenas se for realmente necessário para a formação do aluno, devido a sua dificuldade.
+Em resumo, o Scratch permite o ensino de forma simples e motivador, algo que as linguagens não costumam permitir. Contudo é importante lembrar que ele pode ser usado nas primeiras aulas, umas 8 aulas podem ser suficiente para criar projetos incríveis e depois pode-se iniciar o ensino das linguagens tradicionais, seja Portugol, Python ou C, por exemplo, esta última apenas se for realmente necessário para a formação do aluno, devido a sua dificuldade.
 
 Pensando nisso, no ano de 2019, ao iniciar a primeira turma do curso Técnico em Automação, começamos a disciplina de programação com uma aula motivando os alunos sobre a área de programação, explicando como é o mercado de trabalho para um desenvolvedor, os conceitos de algoritmos e, em seguida, o ensino do Scratch. Essas aulas de Scratch podem ser encontradas no seguinte endereço [Introdução ao Scratch](https://scratch.arthurassuncao.com/). Essas aulas foram feitas com CSS e RevealJS. O ensino de lógica costuma ser com os seguintes conteúdos, na ordem que estão:
 
@@ -62,7 +74,7 @@ Isso nos leva a interface web do Scratch, como a Figura 4.2 apresenta.
 
 ### Como Começar
 
-Podemos começar de várias formas, nos slides do link acima, começo apresentando o que o Scratch permite fazer e vou incrementando as funções ensinando cada comando a medida que é necessario, chamo isso de **aprendizado por demanda**. Considero ótima forma de se aprender uma linguagem ou tecnologia de forma rápida e mais interessante, pois remove o excesso de teoria e se aprende com base no que é necessário a cada momento, o ponto negativo é que não se aprende tudo, pois se limita ao que foi necessitado, portanto perde um pouco dos conceitos fundamentais. Mas imagine, em vez de ler um livro ou fazer um curso de React \(tecnologia para desenvolvimento de sistemas web no front end\) você pode ler um código base e então comece a montar seu site e a cada necessidade você pesquise como fazer, assim você aprende e faz o que precisa, tudo por demanda e sem ter que esperar dias/mês para começar a montar algo de verdade. E num momento posterior você pode estudar mais a fundo seja com livro ou curso.
+Podemos começar de várias formas, nos slides do link acima, começo apresentando o que o Scratch permite fazer e vou incrementando as funções ensinando cada comando a medida que é necessario, chamo isso de **aprendizado por demanda**. Considero ótima forma de se aprender uma linguagem ou tecnologia de forma rápida e mais interessante, pois remove o excesso de teoria e se aprende com base no que é necessário a cada momento, o ponto negativo é que não se aprende tudo, pois se limita ao que foi necessitado, portanto perde um pouco dos conceitos fundamentais e perde um pouco da profundidade de algum conhecimento. Mas imagine, em vez de ler um livro ou fazer um curso de React \(tecnologia para desenvolvimento de sistemas web no front-end\) você pode ler um código base e então comece a montar seu site e a cada necessidade você pesquise como fazer, assim você aprende e faz o que precisa, tudo por demanda e sem ter que esperar dias/mês para começar a montar algo de verdade. E num momento posterior você pode estudar mais a fundo seja com livro ou curso.
 
 Antes da explicação, apresento alguns conceitos básicos da ferramenta:
 
@@ -88,11 +100,11 @@ Além disso, é permitida a rotação de um personagem no stage, esta rotação 
 
 ![Figura 4.4. &#xC2;ngulos de uma circunfer&#xEA;ncia.](../.gitbook/assets/scratch-rotacao.png)
 
-Esta plataforma, tem diversas categorias com comandos e blocos que podem ser utilizados, cada categoria representa um tipo diferente de conjunto de blocos onde os comandos em azul são referentes à Movimento, os roxos são referentes à Aparência, magenta à Som, amarelo à Eventos, laranja à Controle, ciano à Sensores, verde à Operadores, laranja escuro à Variáveis e ainda é possível criar os seus próprios blocos que ficam em um tom de vermelho. Essas categorias podem ser vistos na Figura 4.5.
+Esta plataforma, tem diversas categorias com comandos e blocos que podem ser utilizados, cada categoria representa um tipo diferente de conjunto de blocos e cada categoria recebe uma cor. Os comandos em azul são referentes à Movimento, os roxos são referentes à Aparência, magenta à Som, amarelo à Eventos, laranja à Controle, ciano à Sensores, verde à Operadores, laranja escuro à Variáveis e ainda é possível criar os seus próprios blocos que ficam em um tom de vermelho. Essas categorias podem ser vistos na Figura 4.5.
 
 ![Figura 4.5. Categorias presentes no Scratch web.](../.gitbook/assets/scratch-categorias.png)
 
-Antes de aprendermos conceitos sobre programação, vamos fazer exercícios no Scratch. A finalidade será mostrar que é fácil usar o Scratch. Ainda não começamos a aplicar nossa metodologia. Quero apenas mostrar para você que é legal e interessante usar o Scratch, ou seja, quero te motivar. Então vamos botar as mãos à massa.
+Lembrando que antes de aprendermos conceitos sobre programação, vamos fazer exercícios no Scratch. A finalidade será mostrar que é fácil usar o Scratch. Ainda não começamos a aplicar nossa metodologia. Quero apenas mostrar para você que é legal e interessante usar o Scratch, ou seja, quero te motivar. Então vamos botar as mãos à massa.
 
 ### Exercícios
 
