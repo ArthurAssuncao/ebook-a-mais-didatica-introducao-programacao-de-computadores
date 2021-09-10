@@ -1,8 +1,8 @@
 # 6.1. Aprenda a usar variáveis em Scratch
 
-Se você chegou neste capítulo considero que já tenha estudado os conceitos de variáveis no capítulo [Variáveis](../conceitos-de-programacao/variaveis.md). Agora vamos aplicar esses conceitos ao scratch e utilizar um pouco da nossa metodologia.
+Se você chegou neste capítulo considero que já tenha estudado os conceitos de variáveis no capítulo [Variáveis](../conceitos-de-programacao/variaveis.md). Agora vamos aplicar esses conceitos ao Scratch e utilizar um pouco da nossa metodologia.
 
-No Scratch temos uma categoria chamada Variáveis para tratar do assunto, os comandos possíveis são vistos na Figura 6.1.1. As variáveis no Scratch podem receber valores de tipos número, texto e booleano, contudo não é necesário indicar qual tipo da variável, basta utilizar.
+No Scratch temos uma categoria chamada Variáveis para tratar do assunto, os comandos possíveis são vistos na Figura 6.1.1. As variáveis no Scratch podem receber valores de tipos número, texto e booleano, contudo não é necesário indicar qual tipo da variável, basta utilizar. Portanto, podemos dizer que o Scratch tem tipagem dinâmica, pois o tipo da variável se altera ao longo da execução do código.
 
 ![Figura 6.1.1. Blocos de comandos para uso de vari&#xE1;veis em Scratch.](../.gitbook/assets/image%20%2811%29.png)
 
@@ -12,7 +12,7 @@ Caso você queira usar a variável no código pode usar o comando com o nome da 
 
 ![Figura 6.1.2. Comandos para usar o valor de uma vari&#xE1;vel no c&#xF3;digo ou exibir na tela \(palco\).](../.gitbook/assets/image%20%289%29.png)
 
-Além disso, é possível adicionar um valor a variável, com o comando `adicione <1> a <minha variável>` normalmente ele adiciona o número na varíavel, ou seja, soma o número passado pro comando ao valor atual da variável. Ainda é possível, mostrar ou ocultar uma variável, mas caso queira mostrar a variável o tempo todo você pode marcar o campo checkbox do comando com o nome da variável, como mostra a Figura 6.1.2.
+Além disso, é possível adicionar um valor a variável, com o comando `adicione <1> a <minha variável>` normalmente ele adiciona o número na varíavel, ou seja, soma o número passado pro comando ao valor atual da variável. Ainda é possível, mostrar ou ocultar uma variável, mas caso queira mostrar a variável o tempo todo você pode marcar o campo _checkbox_ do comando com o nome da variável, como mostra a Figura 6.1.2.
 
 Além disso, é possível criar uma lista que é como um vetor, mostrado no capítulo [Variáveis](../conceitos-de-programacao/variaveis.md). Agora aprenda com a minha metodologia a partir das informações abaixo.
 
