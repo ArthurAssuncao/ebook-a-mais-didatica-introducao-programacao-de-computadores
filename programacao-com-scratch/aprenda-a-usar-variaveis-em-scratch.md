@@ -37,6 +37,10 @@ O código abaixo adiciona o valor 5 a variável `pontuação` e depois adiciona 
 
 {% endtab %}
 
+{% tab title="Dividir para conquistar" %}
+
+{% endtab %}
+
 {% tab title="Passo a passo" %}
 Passo a passo
 {% endtab %}
@@ -45,7 +49,7 @@ Passo a passo
 Leia o código
 {% endtab %}
 
-{% tab title="Faça exercícios" %}
+{% tab title="Do it!" %}
 
 {% endtab %}
 {% endtabs %}

@@ -1,6 +1,16 @@
 # 1. Por que Aprender a Programar
 
-Seja bem-vindo, ao longo do livro irei te ensinar e te mostrar que programar é muito mais fácil do que tem sido ou do que seria se aprendesse com um professor tradicional. Se quiser ter uma visão geral assista ao vídeo [Introdução à Programação e Algoritmos](https://www.youtube.com/watch?v=5omj9Sm7cmA) onde explico o mapa conceitual da Figura 1.1.
+Seja bem-vindo, ao longo do livro irei te ensinar e te mostrar que programar é muito mais fácil do que tem sido ou do que seria se aprendesse com um professor tradicional. 
+
+Antes de tudo, assista ao vídeo da Code.org com grandes nomes da tecnologia falando um pouco sobre programação, é um vídeo antigo, mas ainda muito atual, afinal computação ainda é o futuro. 
+
+{% embed url="https://youtu.be/nKIu9yen5nc" %}
+
+{% hint style="info" %}
+Ative as legendas e coloque as legendas no idioma Português \(Brasil\).
+{% endhint %}
+
+Se quiser ter uma visão geral assista ao vídeo [Introdução à Programação e Algoritmos](https://www.youtube.com/watch?v=5omj9Sm7cmA) onde explico o mapa conceitual da Figura 1.1.
 
 ![Figura 1.1. Mapa conceitual sobre conceitos importantes da programa&#xE7;&#xE3;o apresentados no v&#xED;deo.](.gitbook/assets/fluxograma-introducao-a-programacao.png)
 
@@ -16,24 +26,30 @@ Esta programação exige do aluno uma facilidade em relação ao pensamento lóg
 
 Esta é uma pergunta interessante, pois ajuda o aluno a entender que a programação é importante e não deve ser deixada de lado. Portanto, programar te ajuda a:
 
-* Automatizar tarefas: Imagine que você faça diversas tarefas repetitivas no computador, você pode criar um programa para automatizar e te poupar tempo, além de evitar erros que nós humanos cometemos por falta de atenção.
-* Resolver problemas: Pense nos programas e aplicativos, bem como nos sistemas eletrônicos que você utiliza e me diga, algum deles não resolve um problema? Todos resolvem e você pode criar novas soluções para você e para o mundo.
-* Aumentar a eficiência: A programação permite pegar centenas de dados e realizar alguma tarefa sobre eles, por exemplo, verificar se todos alunos estão com suas datas de nascimento cadastradas demoraria muito tempo se fosse feito um por um e "na mão", mas um computador pode fazer em milésimos de segundo e com uma taxa de erros muito menor que um ser humano.
-* Criar coisas novas: Com os itens acima ficou nítido que você pode criar novas soluções, mas destaco este item, pois é o mais fantástico, afinal um Desenvolvimento de Software é como um Deus no mundo dos computadores, a diferença para um Deus tradicional é que o Desenvolvedor de Software precisa estudar e trabalhar muito para desenvolver suas soluções, não somos onipotentes.
+* **Automatizar tarefas**: Imagine que você faça diversas tarefas repetitivas no computador, você pode criar um programa para automatizar e te poupar tempo, além de evitar erros que nós humanos cometemos por falta de atenção.
+* **Resolver problemas**: Pense nos programas e aplicativos, bem como nos sistemas eletrônicos que você utiliza e me diga, algum deles não resolve um problema? Todos resolvem e você pode criar novas soluções para você e para o mundo.
+* **Aumentar a eficiência**: A programação permite pegar centenas de dados e realizar alguma tarefa sobre eles, por exemplo, verificar se todos alunos estão com suas datas de nascimento cadastradas demoraria muito tempo se fosse feito um por um e "na mão", mas um computador pode fazer em milésimos de segundo e com uma taxa de erros muito menor que um ser humano.
+* **Criar coisas novas**: Com os itens acima ficou nítido que você pode criar novas soluções, mas destaco este item, pois é o mais fantástico, afinal um Desenvolvimento de Software é como um Deus no mundo dos computadores, a diferença para um Deus tradicional é que o Desenvolvedor de Software precisa estudar e trabalhar muito para desenvolver suas soluções, não somos onipotentes.
+
+> Programar é resolver problemas para ajudar pessoas e ajudar a tornar o mundo um lugar melhor.
 
 ## Por que ser um Desenvolvedor de Software
 
 Boa parte das profissões está desaparecendo e, assim, sendo substituídas por sistemas computadorizados, os profissionais que desenvolvem estes sistemas são os Desenvolvedores de Softwares, portanto estes serão os últimos profissionais a seres substituídos por máquinas, esta é a profissão do futuro.
 
-Além disso, o salário não é ruim, claro que nem todos irão ganhar rios de dinheiro, mas há espaço para todos, é uma profissão que sempre tem emprego, é raro ver um Desenvolvedor de Software desempregado e um bom Desenvolvedor de Software \(espécie rara\) sempre consegue emprego.
+Além disso, o salário não é ruim, claro que nem todos irão ganhar rios de dinheiro, mas há espaço para todos, é uma profissão que sempre tem emprego, é raro ver um Desenvolvedor de Software desempregado e um ótimo Desenvolvedor de Software \(espécie rara\) sempre consegue emprego.
+
+{% hint style="success" %}
+Considero como Ótimo, o desenvolvedor que domína muito bem a lógica e os fundamentos da programação e é extremamente importante o desenvolvedor ser um bom resolvedor de problemas, sabendo resolver um problema independente de sua complexidade, criando soluções ou buscando respostas na internet ou com amigos, afinal não sabemos tudo, mas precisamos saber onde encontrar as informações. Além disso, é importante ter bom domínio das tecnologias mais atuais em sua área de atuação.
+{% endhint %}
 
 Segundo o site Glassdoor o salário médio na cidade de [Juiz de Fora](https://www.glassdoor.com.br/Sal\%C3\%A1rios/juiz-de-fora-desenvolvedor-sal\%C3\%A1rio-SRCH_IL.0,12_IC2404436_KO13,26.htm) em Minas Gerais é de R$ 2.647, na capital de Minas Gerais, [Belo Horizonte](https://www.glassdoor.com.br/Sal\%C3\%A1rios/belo-horizonte-desenvolvedor-sal\%C3\%A1rio-SRCH_IL.0,14_IC2514646_KO15,28.htm), é R$ 3.252 e em [São Paulo](https://www.glassdoor.com.br/Sal\%C3\%A1rios/s\%C3\%A3o-paulo-desenvolvedor-sal\%C3\%A1rio-SRCH_IL.0,9_IM1009_KO10,23.htm) é de R$ 5.078. Todas as pesquisas foram realizadas no dia 12 de dezembro de 2019. Como pode ver o salário depende da localização, quanto mais perto das principais capitais, maior é a remuneração. Estes Desenvolvedores de Softwares são divididos em níveis e poderíamos classificá-los assim:
 
-* Estagiário: Ainda estudante de curso técnico ou superior e pode ganhar entre R$ 500 e R$ 1.000, raramente ganhará mais na computação.
-* Júnior: É quem acabou de se formar ou que tem um conhecimento básico, já sabe criar um sistema e tem bom conhecimento de alguma linguagem. Uma definição interessante é a do Filipe Deschamps, em seu vídeo intitulado 'O que um Sênior sabe, que um Pleno não sabe e um Júnior menos ainda', onde um Júnior é um profissional, formado ou não, que consegue usar as ferramentas \(como frameworks\) existentes e, assim, consegue montar um servidor, criar um site etc. Este costuma ter salários entre R$ 1.000 e R$ 3.000.
-* Pleno: O pleno costuma ser o Desenvolvedor de Software com uns 2 anos de experiência e, para Deschamps, é um Desenvolvedor de Software que domina mais que apenas as ferramentas, mas entende mais o que se passa por "baixo dos panos", consegue até criar uma nova ferramenta. Pode ter uma remuneração de ganha de R$ 3.000 a R$ 6.000.
-* Sênior: Este é expert e costuma ter mais de 5 anos de experiência, seu salário está acima dos R$ 6.000, podendo de forma não tão difícil chegar próximo aos R$ 10.000 em São Paulo. Para Filipe Deschamps e para o meu irmão, este profissional deve ter um conhecimento maior que apenas de uma situação específica, deve entender todo o contexto, saber o quanto suas ações de hoje irão refletir no sistema no futuro, como o quanto alguma solução irá escalar com o sistema completo com milhares de usuários.
-* Especialista: Há empresas que usam esse termo para indicar o profissional que sabe tudo de sua área, está acima dos demais, pode ganhar pouco mais que o Sênior.
+* **Estagiário**: Ainda estudante de curso técnico ou superior e pode ganhar entre R$ 500 e R$ 1.000, raramente ganhará mais na computação.
+* **Júnior**: É quem acabou de se formar ou que tem um conhecimento básico, já sabe criar um sistema e tem bom conhecimento de alguma linguagem. Uma definição interessante é a do Filipe Deschamps, em seu vídeo intitulado 'O que um Sênior sabe, que um Pleno não sabe e um Júnior menos ainda', onde um Júnior é um profissional, formado ou não, que consegue usar as ferramentas \(como frameworks\) existentes e, assim, consegue montar um servidor, criar um site etc. Este costuma ter salários entre R$ 1.000 e R$ 3.000.
+* **Pleno**: O pleno costuma ser o Desenvolvedor de Software com uns 2 anos de experiência e, para Deschamps, é um Desenvolvedor de Software que domina mais que apenas as ferramentas, mas entende mais o que se passa por "baixo dos panos", consegue até criar uma nova ferramenta. Pode ter uma remuneração de ganha de R$ 3.000 a R$ 6.000.
+* **Sênior**: Este é expert e costuma ter mais de 5 anos de experiência, seu salário está acima dos R$ 6.000, podendo de forma não tão difícil chegar próximo aos R$ 10.000 em São Paulo. Para Filipe Deschamps e para o meu irmão, este profissional deve ter um conhecimento maior que apenas de uma situação específica, deve entender todo o contexto, saber o quanto suas ações de hoje irão refletir no sistema no futuro, como o quanto alguma solução irá escalar com o sistema completo com milhares de usuários.
+* **Especialista**: Há empresas que usam esse termo para indicar o profissional que sabe tudo de sua área, está acima dos demais, pode ganhar pouco mais que o Sênior.
 
 Perceba que são níveis de desenvolvedor, estes níveis vão variar de empresa para empresa, mas tentei apresentar um panorama geral, além disso um Desenvolvedor de Software pode se tornar um líder de time ou outro cargo mais gerencial e ter seu salário aumentado. O gráfico da Figura1 apresenta salários retirados do site Glassdoor, onde é possível ver que quanto mais próximo dos polos de tecnologia, maior é o salário e que, portanto, o salário varia muito de local para local e no interior é bem menor e que em São Paulo temos o melhor salário, contudo, sabemos também, o maior custo de vida.
 
