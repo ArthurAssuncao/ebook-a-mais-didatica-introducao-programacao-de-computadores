@@ -2,26 +2,27 @@
 
 Para realizar operações ou comparações existem operadores, como na matemática. Essas operações são úteis para, por exemplo somar, subtrair, dividir, multiplicar valores literais ou variáveis, comparar se uma variável é maior que um valor literal ou outra variável e muito mais. Caso não tenha entendido, imagine que um usuário digite a idade em um sistema de compra de bebida alcoólica, o sistema pode verificar se está idade é igual ou maior que 18 \(idade mínima para consumo de bebidas alcoólicas no Brasil\).
 
-## Expressões literais e aritméticas
+## 5.2.1. Expressões literais e aritméticas
 
 Para criar expressões literais e aritméticas precisamos dos operadores de atribuição e aritméticos, cada linguagem tem o seu conjunto de operadores onde os principais são atribuição, adição, subtração, multiplicação, divisão, módulo \(resto da divisão inteira\) e exponenciação.
 
 Abaixo apresento a tabela 6.1 com os principais operadores de atribuição e aritméticos de cada linguagem apresentada neste livro. Ressalto que há muitos outros em cada linguagem, contudo não são muito usados.
 
-Tabela 6.1. Operadores de Atribuição e Aritméticos
+Tabela 6.1. Operadores de Atribuição, Aritméticos e concatenação de strings.
 
-| Operador | Scratch | Portugol Studio | Linguagem C |
+| Operador | Scratch \(comando\) | Portugol Studio | Linguagem C |
 | :--- | :--- | :--- | :--- |
-| Atribuição |  | = | = |
-| Atribuição por adição |  | += | += |
-| Incremento\* |  | ++ | ++ |
-| Decremento\* |  | -- | -- |
-| Adição |  | + | + |
-| Subtração |  | - | - |
-| Divisão |  | / | / |
-| Resto de divisão inteira |  | % | % |
-| Exponenciação |  | ^ | Não tem |
-| Concatenação de string |  | + | Não tem |
+| Atribuição | `mude <variável> para <0>` | = | = |
+| Atribuição por adição | `adicione <1> a <variável>` | += | += |
+| Incremento\* | Não tem | ++ | ++ |
+| Decremento\* | Não tem | -- | -- |
+| Adição | + | + | + |
+| Subtração | - | - | - |
+| Multiplicação | \* | \* | \* |
+| Divisão | / | / | / |
+| Resto de divisão inteira | `resto de <> por <>` | % | % |
+| Exponenciação | Não tem | ^ | Não tem |
+| Concatenação de string | `junta <maça> com <banana>` | + | Não tem |
 
 \*A linguagem C permite o uso dos operadores de incremento e decremento de duas formas, pré e pós-fixado, enquanto a linguagem Portugol 2.0 apenas o pós-fixado.
 
@@ -65,7 +66,7 @@ int main(){
 }
 ```
 
-## Expressões lógicas e relacionais
+## 5.2.2. Expressões lógicas e relacionais
 
 Para realizar comparações formando expressões relacionais, ou seja, que relacionam dois valores, usamos os operadores relacionais. Imagine que você ter uma variável para o dinheiro do usuário e ele só poderá comprar algo se o saldo for maior que o valor do produto, então poderíamos comparar se o saldo é maior ou igual ao valor do produto, isso é feito com esses operadores relacionais. Perceba  que uma relação gera sempre um valor verdadeiro ou falso, afinal uma comparação é falsa ou verdadeira.
 
@@ -103,5 +104,25 @@ Tabela 6.4. Tabela Verdade dos Operadores Lógicos.
 | F | V | F | V | V |
 | F | F | F | F | V |
 
+## 5.2.3. Exercícios
 
+1\) Qual a primeira operação a ser executada em cada em dos comandos abaixo:
+
+* x + y - z
+* v + v / c²
+* nota 1 + nota 2 / 2
+* ponto\_extra + media / n
+* x + y + a \* b
+* a \* b / c \* d
+
+2\) Monte uma tabela verdade para os operadores lógicos E\(AND\), OU\(OR\) e NÃO\(NOT\). Não olhe a tabela acima, faça com seu conhecimento.
+
+| p | q | p e q | p ou q | não p |
+| :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+3\) Monte uma lista com os operadores relacionais e explique um pouco de cada um.
 

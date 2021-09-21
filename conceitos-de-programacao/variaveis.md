@@ -51,7 +51,7 @@ Os vetores e matrizes são conjuntos de variáveis. Na Figura 5.1.2 são ilustra
 
 ![Figura 5.1.2 Representa&#xE7;&#xE3;o visual de uma vari&#xE1;vel simples, um vetor e uma matriz.](../.gitbook/assets/variavel-vetor-matriz.png)
 
-## Constantes
+## 5.1.1. Constantes
 
 Constantes são regiões de memória que recebem um valor inicialmente, mas que não permitem a alteração, pois têm valores constantes. Em outras palavras, são "variáveis" que não podem ter alteração de valor ao longo do tempo, geralmente a própria linguagem acusa erro de sintaxe durante a compilação \(linguagem compilada\) ou interpretação \(linguagem interpretada\). Portanto, são nomes atribuídos a valores que não serão alterados, podendo ser utilizadas para definir valores de constantes matemáticas, como o número `pi`. Ressalto que há linguagens que têm palavras-chave específicas para indicar que uma variável é constante facilitando o uso. Abaixo ilustro um exemplo em linguagem JavaScript apenas para facilitar o entendimento, porém cada linguagem aborda o conceito de uma forma diferente.
 
@@ -60,13 +60,13 @@ const pi = 3.1415 // Não acusa erro, pois o valor pode ser atribuído na declar
 pi = 3.141592 // Acusa erro, pois a variável pi é constante.
 ```
 
-## Tipos Primitivos
+## 5.1.2. Tipos Primitivos
 
 As variáveis e constantes podem ser de vários tipos ou receber valores de diversos tipos, como um número inteiro, um número em ponto flutuante \(números reais \(R\)\), vulgarmente números com vírgula, um texto, um valor booleano \(verdadeiro ou falso\) etc.
 
 Esses tipos podem ser primitivos ou complexos, os tipos primitivos são, como o nome diz, primitivos, como um número inteiro. Já os tipos complexos são tipos que utilizam tipos primitivos, são tipos novos, como classes em uma linguagem orientada a objetos. Cada linguagem tem sua tabela de tipos pré-definidos.
 
-## Tipos de Tipagem
+## 5.1.3. Tipos de Tipagem
 
 Essa seção é bastante complicada e muito controvérsa, pois os conceitos não são muito bem definidos por ninguém, portanto não tente entender perfeitamente, leia apenas por alto. Alguns conceitos em programação costumam ser bastante confundidos, tudo relacionado a tipagem entra nessas confusões, então abaixo veja as definições mais aceitas.
 
@@ -79,7 +79,7 @@ var name = "Arthur Assuncao"; // ao atribuir o valor, o compilador atribuirá o 
 var number = 26; // ao atribuir o valor, o compilador atribuirá o tipo int/Integer à variável
 ```
 
-### Tipagem Estática
+### 5.1.3.1. Tipagem Estática
 
 A tipagem estática está relacionada a linguagem garantir que uma variável nunca alterará seu tipo, podendo alterar apenas seu valor, ou seja, uma variável de tipo inteiro não pode se tornar uma variável do tipo texto, assim uma variável do tipo inteiro só poderá receber valores do tipo inteiro, por exemplo:
 
@@ -90,7 +90,7 @@ inteiro numero = 26 // a variável name é do tipo inteiro
 numero = "Arthur" // Erro. Vai gerar um erro de compilação, pois a variável é do tipo inteiro
 ```
 
-### Tipagem Dinâmica
+### 5.1.3.2. Tipagem Dinâmica
 
 Já a tipagem dinâmica é quando a linguagem permite que uma variável mude seu tipo em tempo de execução, realizando a inferência de tipo. Nesse tipo de linguagem, as variáveis não costumam ter tipos definidos na declaração das variáveis, assim uma variável pode assumir qualquer tipo dependendo do momento.
 
@@ -101,7 +101,7 @@ var name = "Arthur Assuncao" //a variável name é do tipo string
 name = 26 //a variável agora é do tipo number (número)
 ```
 
-### Fracamente Tipada ou Tipagem Fraca
+### 5.1.3.3. Fracamente Tipada ou Tipagem Fraca
 
 **Tipagem fraca** significa que o compilador/interpretador não verifica os tipos das variáveis nas operações em tempo de execução ou compilação, por exemplo, você pode somar um número com um texto e ele gerará algum resultado sem qualquer erro, gerando assim uma **coerção implícita**, ou seja, mudança no tipo do valor para que a operação execute sem erros.
 
@@ -112,18 +112,18 @@ Por exemplo, em JavaScript é possível fazer como no código abaixo, perceba qu
 '1' + false // o resultado será '1false'
 ```
 
-### Tipada ou Tipagem Forte
+### 5.1.3.4. Tipada ou Tipagem Forte
 
 **Tipagem forte** significa que o compilador/interpretador verifica os tipos durante a execução ou compilação das operações. Caso os tipos não sejam compatíveis, um erro é gerado.
 
-### Resumo de Tipagem
+### 5.1.3.5. Resumo de Tipagem
 
 * Variável tem tipo definido então é tipagem estática;
 * Variável não tem tipo definido então é tipagem dinâmica;
 * Valor tem tipo definido e não sofre coerção implícita então é tipagem forte;
 * Valor não tem tipo definido e sofre coerção implícita então é tipagem fraca;
 
-## Escopo de Variável
+## 5.1.4. Escopo de Variável
 
 Escopo de uma variável é o bloco de código que delimita a existência dessa variável, algumas linguagens têm todas suas variáveis com escopo global, ou seja, que existem de forma global em relação ao código, assim existindo em todo o código. Por padrão, vamos entender que o escopo de uma variável é o bloco de código onde ela foi criada e todos os sub-blocos deste.
 
@@ -137,7 +137,7 @@ if (idade > 18) {
 console.log(contador) // error: Uncaught ReferenceError: contador is not defined
 ```
 
-## Revisão:
+## 5.1.5. Exercícios:
 
 1. O que é um literal? 
 2. O que é uma string? 
@@ -173,7 +173,7 @@ console.log(contador) // error: Uncaught ReferenceError: contador is not defined
 * [ ] NOTA/2
 * [ ] PEDROEPAULO
 
-[Aprenda a usar variáveis em Scratch](../programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
+[Aprenda a usar variáveis em Scratch](../programacao-com-scratch/usando-variaveis-em-scratch.md)
 
 Aprenda a usar variáveis em Portugol Studio
 

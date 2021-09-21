@@ -31,7 +31,9 @@
 
 ## 6. Programação com Scratch <a id="programacao-com-scratch"></a>
 
-* [6.1. Aprenda a usar variáveis em Scratch](programacao-com-scratch/aprenda-a-usar-variaveis-em-scratch.md)
+* [6.1. Usando variáveis em Scratch](programacao-com-scratch/usando-variaveis-em-scratch.md)
+* [6.2 Usando operadores e expressões em Scratch](programacao-com-scratch/usando-operadores-e-expressoes-em-scratch.md)
+* [6.3. Usando comandos de Entrada e Saída de dados em Scratch](programacao-com-scratch/usando-comandos-de-entrada-e-saida-de-dados-em-scratch.md)
 
 ## Programação com Portugol
 
