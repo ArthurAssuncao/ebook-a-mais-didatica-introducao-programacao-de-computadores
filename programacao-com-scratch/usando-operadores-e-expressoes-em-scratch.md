@@ -47,10 +47,6 @@ Perceba que todo número impar dividido por 2 resulta em um resto 1 e todo núme
 1\) Se quero usar o valor de uma variável em uma expressão matemática, preciso que essa variável tenha um valor definido anteriormente ou não? Explique.
 {% endtab %}
 
-{% tab title="Dividir para conquistar" %}
-Devido o uso inicial de expressões ser muito simples, iremos abordar esse item nas próximas seções.
-{% endtab %}
-
 {% tab title="Passo a passo" %}
 1\) Crie um código que subtraia a sua idade do ano atual e armazene o valor em uma nova variável.
 
@@ -62,6 +58,10 @@ Mude o valor da variável idade para a sua idade
 Mude o valor da variável ano_atual para o ano atual
 Mude o valor da variável resultado para a subtração de ano_atual - idade
 ```
+{% endtab %}
+
+{% tab title="Dividir para conquistar" %}
+Devido o uso inicial de expressões ser muito simples, iremos abordar esse item nas próximas seções.
 {% endtab %}
 
 {% tab title="Leia o código" %}

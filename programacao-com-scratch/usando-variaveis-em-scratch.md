@@ -47,10 +47,6 @@ Devido o uso inicial de variáveis ser muito simples, não temos situações de 
 1\) Quero criar um código com uma variável para idade do usuário, o que devo fazer?
 {% endtab %}
 
-{% tab title="Dividir para conquistar" %}
- Devido o uso inicial de variáveis ser muito simples, não temos situações deste item para abordar.
-{% endtab %}
-
 {% tab title="Passo a passo" %}
 1\) Criar um algoritmo que tenha uma variável resposta que inicie com o valor 0.
 
@@ -58,6 +54,10 @@ Devido o uso inicial de variáveis ser muito simples, não temos situações de 
 2. Ir na categoria Variáveis e Criar uma variável com o nome `resposta`.
 3. Colocar o comando `Mude <minha variável> para <0>` embaixo do comando `Quando <bandeira> for clicado`.
 4. Mude o valor `minha variável` do comando do passo anterior para a variável `resposta`.
+{% endtab %}
+
+{% tab title="Dividir para conquistar" %}
+ Devido o uso inicial de variáveis ser muito simples, não temos situações deste item para abordar.
 {% endtab %}
 
 {% tab title="Leia o código" %}

@@ -38,7 +38,11 @@ Quando você erra, você aprende como não fazer, ao errar algumas vezes você a
 
 Eu posso te passar um pedaço de código e dizer: _"este código verifica se a idade é maior que 18 e, se for, imprime uma mensagem dizendo que o usuário é maior de idade"_. Porém, este tipo de abordagem não funciona com todos, principalmente na programação. O ideal é eu lhe passar um código e perguntar: _"me diga o que esse código faz"_. Então você entenderá com os seus próprios olhos e mente, será um conceito mais bem fixado que apenas decorar que o código x faz algo. Agora imagine que eu peça para você alterar, a cada momento, uma parte do código e me dizer o que acontece, você irá entender muito melhor o que as suas ações e alterações estão causando no código. ****Este pilar será conhecido como **Reflita!**.
 
-### 4. Dividir em subproblemas
+### 4. Passo a passo
+
+Programar é criar algoritmos em linguagens de programação, algoritmos são sequencias de passos finitos para fazer alguma tarefa. Muita gente tem dificuldade em detalhar o passo a passo para realizar alguma tarefa porque não tem o costume de fazer isso, então programar se torna mais difícil, pois as pessoas têm dificuldade na criação de passo a passo e para organizar ideias em suas "cabeças". Portanto, ao ensinar o passo a passo na montagem de código, ensinamos o aluno a pensar como programador. Este pilar será conhecido como **Passo a passo**.
+
+### 5. Dividir em subproblemas
 
 Na computação existe um conceito chamado **dividir para conquistar**, este conceito envolve a divisão de problemas em problemas menores para facilitar a solução. Pense comigo: você precisa montar uma comoda, como você irá realizar essa tarefa? Como dividiria o problema em problemas menores? Te dou uma resposta possível. Você poderia separar nos seguintes sub-problema:
 
@@ -52,11 +56,13 @@ Na computação existe um conceito chamado **dividir para conquistar**, este con
 8. Colocar as dobradiças e outros itens na estrutura da comoda;
 9. Colocar as gavetas na comoda;
 
-Perceba que é uma espécie de algoritmo, sequência de passos, porém cada parte é uma tarefa diferente, logo uma subtarefa ou subproblema para ser resolvido. Pensar em dividir em subproblemas é essencial para qualquer pessoa, pois facilita nossa resolução de problemas na vida. Este pilar será conhecido como **Dividir para conquistar**.
+Perceba que é uma espécie de algoritmo, porém cada parte é uma tarefa diferente e sem muitos detalhes, logo uma subtarefa ou subproblema para ser resolvido. Pensar em dividir em subproblemas é essencial para qualquer pessoa, pois facilita nossa resolução de problemas na vida. 
 
-### 5. Passo a passo
+{% hint style="info" %}
+**Não confuda** dividir em subproblemas com passo a passo, o passo a passo é a montagem do algoritmo, com detalhes, já dividir para conquistar é separar em partes sem muitos detalhes para facilitar o entendimento e desenvolvimento da solução.
+{% endhint %}
 
-Programar é criar algoritmos em linguagens de programação, algoritmos são sequencias de passos finitos para fazer alguma tarefa. Muita gente tem dificuldade em detalhar o passo a passo para realizar alguma tarefa porque não tem o costume de fazer isso, então programar se torna mais difícil, pois as pessoas têm dificuldade na criação de passo a passo e para organizar ideias em suas "cabeças". Portanto, ao ensinar o passo a passo na montagem de código, ensinamos o aluno a pensar como programador. Este pilar será conhecido como **Passo a passo**.
+Este pilar será conhecido como **Dividir para conquistar**.
 
 ### 6. Leitura de código
 

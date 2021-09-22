@@ -82,16 +82,6 @@ Pegar o comprovante de compra
 ```
 {% endtab %}
 
-{% tab title="Dividir para conquistar" %}
-1\) Você quer estudar inglês usando um caderno e vídeos no site do TED, porém não tem caderno e não sabe quais vídeos.
-
-Vamos dividir o problema em 3 subproblemas, lembre que cada subproblema pode ter subsubproblemas, caso necessário.
-
-1. Comprar o caderno.
-2. Selecionar vídeos do TED, por exemplo, vídeos de até 5 minutos sobre assuntos fáceis de entender.
-3. Organizar como será feito o estudo diário.
-{% endtab %}
-
 {% tab title="Passo a passo" %}
 1\) Monte um algoritmo para um segurança verificar se uma pessoa pode entrar em uma festa. Essa festa é para convidados maiores de 18 anos.
 
@@ -102,6 +92,16 @@ Vamos dividir o problema em 3 subproblemas, lembre que cada subproblema pode ter
 4. Se o nome da pessoa não está na lista, o que acontece? e se tiver na lista?
 5. Há mais alguma informação para verificar para impedir ou permitir que a pessoa entre na festa?
 ```
+{% endtab %}
+
+{% tab title="Dividir para conquistar" %}
+1\) Você quer estudar inglês usando um caderno e vídeos no site do TED, porém não tem caderno e não sabe quais vídeos.
+
+Vamos dividir o problema em 3 subproblemas, lembre que cada subproblema pode ter subsubproblemas, caso necessário.
+
+1. Comprar o caderno.
+2. Selecionar vídeos do TED, por exemplo, vídeos de até 5 minutos sobre assuntos fáceis de entender.
+3. Organizar como será feito o estudo diário.
 {% endtab %}
 
 {% tab title="Leia o código" %}
