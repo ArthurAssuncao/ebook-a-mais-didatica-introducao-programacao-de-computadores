@@ -63,7 +63,7 @@ Devido o uso inicial de variáveis ser muito simples, não temos situações de 
 {% tab title="Leia o código" %}
 1\) O que o código abaixo faz?
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 {% endtab %}
 
 {% tab title="Do it!" %}

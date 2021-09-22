@@ -4,11 +4,11 @@ Se você chegou neste capítulo considero que já tenha estudado os conceitos de
 
 No Scratch temos a categoria Operadores para tratar de operadores e expressões, porém alguns comandos/operadores são vistos em outras categorias. Primeiro, iremos abordar os operadores aritméticos, lembre que na seção anterior [Usando variáveis em Scratch](usando-variaveis-em-scratch.md) você aprendeu a usar o operador de atribuição com o comando `mude <variável> para <0>`. Agora iremos ver os operadores relativos a operações matemáticas, são eles:
 
-![Figura 6.2.1. Operadores Aritm&#xE9;ticos do Scratch.](../.gitbook/assets/image%20%2838%29.png)
+![Figura 6.2.1. Operadores Aritm&#xE9;ticos do Scratch.](../.gitbook/assets/image%20%2842%29.png)
 
-![Figura 6.2.2. Operadores de concatena&#xE7;&#xE3;o de strings do Scratch.](../.gitbook/assets/image%20%2834%29.png)
+![Figura 6.2.2. Operadores de concatena&#xE7;&#xE3;o de strings do Scratch.](../.gitbook/assets/image%20%2838%29.png)
 
-![Figura 6.2.3. Operador Aritm&#xE9;tico de resto da divis&#xE3;o do Scratch.](../.gitbook/assets/image%20%2841%29.png)
+![Figura 6.2.3. Operador Aritm&#xE9;tico de resto da divis&#xE3;o do Scratch.](../.gitbook/assets/image%20%2845%29.png)
 
 Para usar esses operadores precisaresmo atribuí-los a uma variável ou usá-los em comandos mais avançados que ainda não aprendemos, por isso vamos utilizar na atribuição de variáveis.
 
@@ -16,11 +16,11 @@ Para usar esses operadores precisaresmo atribuí-los a uma variável ou usá-los
 {% tab title="Veja exemplos" %}
 1\) Mudar a idade para o valor da soma entre 1 e 2.
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 2\) No código abaixo, a variável `numero1` receberá 5 e a variável `numero2` receberá o resultado da multiplicação entre o valor de `numero1` e `2`, ou seja, receberá `10`.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 3\) O código abaixo atribui `0` ou `1` a variável `parImpar`. Não ficou claro? O código atribui `5` a variável `numero1`, depois atribui o resto da divisão entre `numero1` e `2` à variável `numero2`, ou seja, `numero2` receberá o resto da divisão inteira entre `numero1` e o valor `2`, o resto de qualquer número por `2` ou é `0` ou é `1`, dúvida?
 
